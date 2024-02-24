@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-11T14:57:07.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5HH40A9-ypT_90NhqzAR" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T17:07:50.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HEAH2T0iwgIGvy09k-3C" version="23.1.6" type="github">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="3356" dy="2853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4274" dy="3261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,20 +540,41 @@
         <mxCell id="E5zbXxz6nN5Kfur28QHm-19" value="find a use" style="rounded=1;whiteSpace=wrap;html=1;" parent="E5zbXxz6nN5Kfur28QHm-10" vertex="1">
           <mxGeometry x="120" y="60" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rrUuG9biX7r8w3peazuF-1" value="Was muss ich alles von den Nutzenr überhaupt speichern??&lt;br&gt;&lt;br&gt;==&amp;gt; Im optimalfall müssen die nutzer mit 2 von 3 key teilen einfach immer alles recovern können heißt&lt;br&gt;ihre llightning wallet und alles andere ist klar aber was ist mit dem anderen shit, was ist mit taproot assets&lt;br&gt;&lt;br&gt;da braucht man ja für die revovery vllt mehr // vllt speicher ich auf meinen servern quasie immer noch die asset referenzen ab&lt;br&gt;und wenn n accorunt wiedhergestellt wird wird weil die ja ownership proofs haben dafür mit jedem asset wieder ne ownership proof gemacht&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;An sich müsste der admin.macaroon ja eig ausreichen um den beweis für die assets zu haben (das problem ist wenn ich ne neue node aufgesetzt hab&lt;br&gt;hat die nicgt automatisch die assets wieder hergestellt // vllt passiert da ja wenn die finalized wären oder so hmmm)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rrUuG9biX7r8w3peazuF-1" value="Was muss ich alles von den Nutzenr überhaupt speichern??&lt;br&gt;&lt;br&gt;==&amp;gt; Im optimalfall müssen die nutzer mit 2 von 3 key teilen einfach immer alles recovern können heißt&lt;br&gt;ihre llightning wallet und alles andere ist klar aber was ist mit dem anderen shit, was ist mit taproot assets&lt;br&gt;&lt;br&gt;da braucht man ja für die revovery vllt mehr // vllt speicher ich auf meinen servern quasie immer noch die asset referenzen ab&lt;br&gt;und wenn n accorunt wiedhergestellt wird wird weil die ja ownership proofs haben dafür mit jedem asset wieder ne ownership proof gemacht&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;An sich müsste der admin.macaroon ja eig ausreichen um den beweis für die assets zu haben (das problem ist wenn ich ne neue node aufgesetzt hab&lt;br&gt;hat die nicgt automatisch die assets wieder hergestellt // vllt passiert da ja wenn die finalized wären oder so hmmm)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2580" y="-1349" width="820" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="rrUuG9biX7r8w3peazuF-2" value="RECOVERY MÄßig" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rrUuG9biX7r8w3peazuF-2" value="RECOVERY MÄßig" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2750" y="-1416" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rrUuG9biX7r8w3peazuF-3" value="* Use rkommt in die App&lt;br&gt;* klickt registieren&lt;br&gt;* User muss den Auth code eingeben und wenn das passt gehts weiter&lt;br&gt;*username selection&lt;br&gt;Dem user wird ein enuer / frischer google docker aufgsetzt&lt;br&gt;Die verbindung zu einer bitnet node wird automatisch dabei hergestellt??&lt;br&gt;&lt;br&gt;Muss der Nutzer erst etwas zahlen??&lt;br&gt;&lt;br&gt;Was kostet es mich eine node für jeden Nutzer zu betreiben monatl.&lt;br&gt;&lt;br&gt;Was kostet es mich die Node mit meiner Node zu verbinden damit man überhaupt in und outbound liquidität hat oder irgendwas&lt;br&gt;&lt;br&gt;Wie machen andere lighningservices das benutzen die sowas wie lndhub?? Sowas könnte ich halt nicht benutzen&lt;br&gt;&lt;br&gt;Für mich ist wichtig dass jeder nutzer wirklich seine eigene Node bekommt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rrUuG9biX7r8w3peazuF-3" value="* Use rkommt in die App&lt;br&gt;* klickt registieren&lt;br&gt;* User muss den Auth code eingeben und wenn das passt gehts weiter&lt;br&gt;*username selection&lt;br&gt;Dem user wird ein enuer / frischer google docker aufgsetzt&lt;br&gt;Die verbindung zu einer bitnet node wird automatisch dabei hergestellt??&lt;br&gt;&lt;br&gt;Muss der Nutzer erst etwas zahlen??&lt;br&gt;&lt;br&gt;Was kostet es mich eine node für jeden Nutzer zu betreiben monatl.&lt;br&gt;&lt;br&gt;Was kostet es mich die Node mit meiner Node zu verbinden damit man überhaupt in und outbound liquidität hat oder irgendwas&lt;br&gt;&lt;br&gt;Wie machen andere lighningservices das benutzen die sowas wie lndhub?? Sowas könnte ich halt nicht benutzen&lt;br&gt;&lt;br&gt;Für mich ist wichtig dass jeder nutzer wirklich seine eigene Node bekommt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1875" y="-1705" width="700" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="rrUuG9biX7r8w3peazuF-5" value="Gibt es dann lieber eine riesen BitNet Node? ==&amp;gt; wieder ein single point of failure, wäre daher vllt gar nicht gut //&lt;br&gt;könnte es für den ANfang nur mit einer machen bis ich nutzer bekomm um es simpel zu halten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rrUuG9biX7r8w3peazuF-5" value="Gibt es dann lieber eine riesen BitNet Node? ==&amp;gt; wieder ein single point of failure, wäre daher vllt gar nicht gut //&lt;br&gt;könnte es für den ANfang nur mit einer machen bis ich nutzer bekomm um es simpel zu halten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1840" y="-1402" width="620" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rrUuG9biX7r8w3peazuF-6" value="Es wird noch sehr wichtig universes und federations zu verstehen was Taproot assets betrifft" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rrUuG9biX7r8w3peazuF-6" value="Es wird noch sehr wichtig universes und federations zu verstehen was Taproot assets betrifft" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1045" y="-1720" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6_tbIhgqHgTGhfVPlgi-2" value="OnChain Transactions (LND Walletkit Service)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2830" y="-1033" width="690" height="597" as="geometry" />
+        </mxCell>
+        <mxCell id="J6_tbIhgqHgTGhfVPlgi-4" value="ListUnspent" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="J6_tbIhgqHgTGhfVPlgi-2">
+          <mxGeometry x="50" y="56" width="115" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6_tbIhgqHgTGhfVPlgi-6" value="FundPsbt&lt;br&gt;(also creates)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="J6_tbIhgqHgTGhfVPlgi-2">
+          <mxGeometry x="220" y="56" width="115" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6_tbIhgqHgTGhfVPlgi-7" value="SignPsbt" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="J6_tbIhgqHgTGhfVPlgi-2">
+          <mxGeometry x="50" y="163" width="115" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6_tbIhgqHgTGhfVPlgi-8" value="FinalizePsbt" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="J6_tbIhgqHgTGhfVPlgi-2">
+          <mxGeometry x="220" y="163" width="115" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6_tbIhgqHgTGhfVPlgi-9" value="Publish&lt;br&gt;Transaction" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="J6_tbIhgqHgTGhfVPlgi-2">
+          <mxGeometry x="380" y="163" width="115" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6_tbIhgqHgTGhfVPlgi-3" value="Lightning Transactions" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3580" y="-1033" width="690" height="597" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
