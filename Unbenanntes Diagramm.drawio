@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T13:20:49.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TrsoUNtdQF50vt3M_a3t" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T19:51:02.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="db9dlS8luIJhbgeicgsZ" version="24.0.7" type="github">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="2636" dy="3074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5751" dy="4447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -587,6 +587,45 @@
         </mxCell>
         <mxCell id="TcJM5gVhWRj09XjwWUyj-14" value="Was braucht eine node zum starten mindestens? JEDER Nutzer soll hier wirklich siene eigene node haben &amp;gt;&amp;gt; problem ist wenn ich sie runterfahr dann dauert es immer zum starten ne weile bis zum block catchup&lt;div&gt;&amp;gt;&amp;gt; das lässt sich wiederum mit einer zentralen fullnode dogen...&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;gt; Dann einfach jede user node würde zu fullnodes connecten und das als &quot;wahrheit&quot; anerkennen &amp;gt;&amp;gt; problem ist da auch wieder dezentralität verletzt?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2940" y="-380" width="1150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-15" value="Userspecific" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3580" y="-265" width="180" height="765" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-16" value=".tapd" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="-200" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-17" value=".lnd" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="-80" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-18" value=".faraday" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="32.5" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-19" value=".loop" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="160" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-20" value=".lit" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="280" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-21" value="Walletpassword????" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="-250" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-22" value="includes mnemonics that the user will receive and stores directly ondevice" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="-130" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-23" value="we store the api keys / encrypted on the cloud - their private key can decrypt those" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="-10" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-24" value="user doesnt send us his priavtekey he signs a message and proves like that he in fact owns the priavtekey &amp;gt;&amp;gt;&amp;gt; we will give access to his node" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="115" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-25" value="can a node just have a plug the - files from whoever and play system?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;gt; dafür vllt ne fullnode backend mit denen sich mehrere leute connecten nötig&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="320" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-26" value="EGAL was ist ich kann jetzt schonmal die mnemonxi screens machen von der logik damit das schonmal stheht" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3580" y="555" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-28" value="Aus den mnemonc werden mehrere wallets mit mehreren pubkeys generiert das ist ja auch schon n logikproblem glaub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3580" y="600" width="660" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
