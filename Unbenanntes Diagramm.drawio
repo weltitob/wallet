@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T13:04:38.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UOPbGfPzWHdFQqnxcpGm" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T16:19:42.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2on0WpCebXwi7NpfX2m_" version="24.2.3" type="github">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="6904" dy="5428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4279" dy="3883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -639,7 +639,7 @@
         <mxCell id="iN7IJg5jm9J71pLzGA63-4" value="Fullnode Bitcoin backend" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" parent="1" vertex="1">
           <mxGeometry x="5135" y="30.5" width="110" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="iN7IJg5jm9J71pLzGA63-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-6" edge="1">
+        <mxCell id="iN7IJg5jm9J71pLzGA63-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="0VRtoFeHFaYbxqHdzmZ6-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5110" y="-50" as="targetPoint" />
           </mxGeometry>
@@ -842,6 +842,15 @@
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-22" value="&lt;b&gt;TODO:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* jz bei den containern die ich abgespinned habe veruschen iwie n custom root folder unterzuschieben&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* vllt kann man einfach das volumne mount exchangen dann von den 2 einfach mal tauschen lassen vllt hilft das ja&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;==&amp;gt; vllt kommts zu fehlern da die blöcke die speichert wurdne in .lnd folder jz nicht mehr übereinstimmen und dann muss alles neu gefetched werden was zeit dauert aber das lässt sich dann später auch fixen indem man&lt;/div&gt;&lt;div&gt;die alten dazu beibehält / nciht rüber kopiert / die neue version rüber kopiert oder wie auch imemr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Danach kommt alles wietere unten hier:&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5360" y="-855" width="1190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="iN7IJg5jm9J71pLzGA63-6" target="0VRtoFeHFaYbxqHdzmZ6-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5110" y="-50" as="targetPoint" />
+            <mxPoint x="4875" y="-50" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-23" value="Ingress Controller &amp;amp; Loadbalancer (Router)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4925" y="-80" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
