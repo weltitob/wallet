@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T12:54:06.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hkJ8nlyvY97gX7dMPPsb" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T13:04:38.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UOPbGfPzWHdFQqnxcpGm" version="24.2.3" type="github">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="3754" dy="3574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6904" dy="5428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -787,10 +787,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-1" value="Step by step umsetzung: Schitt 1 pro user n chilligen normalen root folder in firebase abspeichern (cloud function am besten)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;mit dem privatekey des nutzern den coolen root folder lokal verschlüsseln&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 1: cloudfunction nehmen die quasie n priavtzekey taked dann denn stanni root folder encrypted und abspeichert in der cloud auf lol&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;der muss dann auch auf lol die macaroons lokal beim user speichern (beim login und register muss das auch immer gemacht werden)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 2: funktion die quasie den root folder abfrägt decrypted und die macaroons zurgückgibt wenn man den privatekey besitzt ==&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;funktion bauen die den privatekey taked und den ordner von firebase abfrägt und wieder entschlüsselt&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;_______________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 2: funktionen bauen die den rootfolder plug and play in container einspeisen können die dann auch autostarten daruch dass sie dne root kassiert haben (mit neutrino darfs auch gerne n bissl länger dauenr)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;______________________________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5200" y="-867" width="1260" height="290" as="geometry" />
+          <mxGeometry x="5315" y="-670" width="1260" height="290" as="geometry" />
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-4" value="wie lange dauert es bis ne lightnign terminal instanz komplett gestartet ist von 0 auf 100 mit einem fullnode backend ==&amp;gt; das ist die zeit die n user brauchen wird um überhaupt btc versenden zu können&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2s gerade==&amp;gt; das wäre full okay&lt;/div&gt;&lt;div&gt;4.5s beim 2ten mal das mir eig zu langgggg maaan 5s realistisch &amp;gt;&amp;gt; ist schon sehr lang&lt;/div&gt;&lt;div&gt;___________________________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vllt einfach firebase time sammeln seitdem jmd offline is tund immer erst nach 1 tag wieder neu starten die node ==&amp;gt; dann hätte man keinen zu krassen time delay und gleichzeitig nicht zu viele nodes oben&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5250" y="-595" width="1110" height="110" as="geometry" />
+          <mxGeometry x="5390" y="-375" width="1110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-5" value="MÖGLICHE IMPLEMENTIERUNG ABER 4-5s jedes mal wenn der user ne neue node connection braucht" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5270" y="-10" width="590" height="30" as="geometry" />
@@ -823,7 +823,7 @@
           <mxGeometry x="5280" y="-1480" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-16" value="==&amp;gt; Diese Version isses aber mit KENNZEICHNEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="6690" y="-1261" width="300" height="30" as="geometry" />
+          <mxGeometry x="6730" y="-1264" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-17" value="container not in use mit cleared root folder ==&amp;gt; name ist -READY&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;container in use aktiv mit individuellem root folder ==&amp;gt; name ist USED&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;container wo gerade frei wird ==&amp;gt; PENDING&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="6680" y="-1171" width="400" height="90" as="geometry" />
@@ -836,6 +836,12 @@
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-20" value="IT SEC==&amp;gt; BEVOR EIN NUTZER SICH VERBINDET WIRD ÜBERPRÜFT OB DER HASH DES CONTAINERS MIT DEM ER SICH GLEICH CONNECTED WIRKLICH DERSLEBE IST WIE VOM PLAIN ROOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="6500" y="-1047.5" width="1130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-21" value="könnt ejz einfach n cluster upspinnen mit 3 default nodes (stannicontainer den jeder haben wird) die alle mit einer special node verbunden sind&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6663" y="-947" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-22" value="&lt;b&gt;TODO:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* jz bei den containern die ich abgespinned habe veruschen iwie n custom root folder unterzuschieben&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* vllt kann man einfach das volumne mount exchangen dann von den 2 einfach mal tauschen lassen vllt hilft das ja&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;==&amp;gt; vllt kommts zu fehlern da die blöcke die speichert wurdne in .lnd folder jz nicht mehr übereinstimmen und dann muss alles neu gefetched werden was zeit dauert aber das lässt sich dann später auch fixen indem man&lt;/div&gt;&lt;div&gt;die alten dazu beibehält / nciht rüber kopiert / die neue version rüber kopiert oder wie auch imemr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Danach kommt alles wietere unten hier:&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5360" y="-855" width="1190" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
