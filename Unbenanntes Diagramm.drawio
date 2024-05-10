@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T16:19:42.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2on0WpCebXwi7NpfX2m_" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T16:29:17.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="VWknHCU-_qSz-o-Fs5iU" version="24.3.0" type="github">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4279" dy="3883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2378" dy="2764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -786,71 +786,180 @@
         <mxCell id="iN7IJg5jm9J71pLzGA63-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.557;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-9" target="iN7IJg5jm9J71pLzGA63-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-1" value="Step by step umsetzung: Schitt 1 pro user n chilligen normalen root folder in firebase abspeichern (cloud function am besten)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;mit dem privatekey des nutzern den coolen root folder lokal verschlüsseln&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 1: cloudfunction nehmen die quasie n priavtzekey taked dann denn stanni root folder encrypted und abspeichert in der cloud auf lol&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;der muss dann auch auf lol die macaroons lokal beim user speichern (beim login und register muss das auch immer gemacht werden)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 2: funktion die quasie den root folder abfrägt decrypted und die macaroons zurgückgibt wenn man den privatekey besitzt ==&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;funktion bauen die den privatekey taked und den ordner von firebase abfrägt und wieder entschlüsselt&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;_______________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 2: funktionen bauen die den rootfolder plug and play in container einspeisen können die dann auch autostarten daruch dass sie dne root kassiert haben (mit neutrino darfs auch gerne n bissl länger dauenr)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;______________________________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-1" value="Step by step umsetzung: Schitt 1 pro user n chilligen normalen root folder in firebase abspeichern (cloud function am besten)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;mit dem privatekey des nutzern den coolen root folder lokal verschlüsseln&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 1: cloudfunction nehmen die quasie n priavtzekey taked dann denn stanni root folder encrypted und abspeichert in der cloud auf lol&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;der muss dann auch auf lol die macaroons lokal beim user speichern (beim login und register muss das auch immer gemacht werden)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 2: funktion die quasie den root folder abfrägt decrypted und die macaroons zurgückgibt wenn man den privatekey besitzt ==&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;funktion bauen die den privatekey taked und den ordner von firebase abfrägt und wieder entschlüsselt&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;_______________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;step 2: funktionen bauen die den rootfolder plug and play in container einspeisen können die dann auch autostarten daruch dass sie dne root kassiert haben (mit neutrino darfs auch gerne n bissl länger dauenr)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;______________________________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5315" y="-670" width="1260" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-4" value="wie lange dauert es bis ne lightnign terminal instanz komplett gestartet ist von 0 auf 100 mit einem fullnode backend ==&amp;gt; das ist die zeit die n user brauchen wird um überhaupt btc versenden zu können&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2s gerade==&amp;gt; das wäre full okay&lt;/div&gt;&lt;div&gt;4.5s beim 2ten mal das mir eig zu langgggg maaan 5s realistisch &amp;gt;&amp;gt; ist schon sehr lang&lt;/div&gt;&lt;div&gt;___________________________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vllt einfach firebase time sammeln seitdem jmd offline is tund immer erst nach 1 tag wieder neu starten die node ==&amp;gt; dann hätte man keinen zu krassen time delay und gleichzeitig nicht zu viele nodes oben&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-4" value="wie lange dauert es bis ne lightnign terminal instanz komplett gestartet ist von 0 auf 100 mit einem fullnode backend ==&amp;gt; das ist die zeit die n user brauchen wird um überhaupt btc versenden zu können&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2s gerade==&amp;gt; das wäre full okay&lt;/div&gt;&lt;div&gt;4.5s beim 2ten mal das mir eig zu langgggg maaan 5s realistisch &amp;gt;&amp;gt; ist schon sehr lang&lt;/div&gt;&lt;div&gt;___________________________________________________________________________________________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vllt einfach firebase time sammeln seitdem jmd offline is tund immer erst nach 1 tag wieder neu starten die node ==&amp;gt; dann hätte man keinen zu krassen time delay und gleichzeitig nicht zu viele nodes oben&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5390" y="-375" width="1110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-5" value="MÖGLICHE IMPLEMENTIERUNG ABER 4-5s jedes mal wenn der user ne neue node connection braucht" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-5" value="MÖGLICHE IMPLEMENTIERUNG ABER 4-5s jedes mal wenn der user ne neue node connection braucht" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5270" y="-10" width="590" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-6" value="Alternativoption die nodes werdne gar nicht immer erst gestartet wenn ein nutzer sich verbindet SONDERN SIE haben einen Defaultodner und SIND IMMER AN und nur die nutzerspezifischen ordner under da hood werden undercover exchanged wenn ich ne funktion ausführe" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-6" value="Alternativoption die nodes werdne gar nicht immer erst gestartet wenn ein nutzer sich verbindet SONDERN SIE haben einen Defaultodner und SIND IMMER AN und nur die nutzerspezifischen ordner under da hood werden undercover exchanged wenn ich ne funktion ausführe" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5055" y="-1208" width="1490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-7" value="wenn es zu nem fehler kommt hat der nutzer eh die falschen macaroons für den server und wenn nicht dann sind ja alle neuen macaroons drin und der alte user hat keine access mehr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-7" value="wenn es zu nem fehler kommt hat der nutzer eh die falschen macaroons für den server und wenn nicht dann sind ja alle neuen macaroons drin und der alte user hat keine access mehr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5310" y="-1152" width="1000" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-8" value="Dann wäre das setup so auch möglich und man spinnt quasie immer default nodes so wie aktuell hoch wnen es ne überlast gibt aber exchanged das puzzle stück ohne dass die node es &quot;bemerkt&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-8" value="Dann wäre das setup so auch möglich und man spinnt quasie immer default nodes so wie aktuell hoch wnen es ne überlast gibt aber exchanged das puzzle stück ohne dass die node es &quot;bemerkt&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5290" y="-1105" width="1060" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-9" value="==&amp;gt; große IT Sec risk da keine seperation mehr&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-9" value="==&amp;gt; große IT Sec risk da keine seperation mehr&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5665" y="-1033" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-10" value="____________________________________________________________________________________________________________________________________________________" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-10" value="____________________________________________________________________________________________________________________________________________________" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5240" y="-1023" width="1010" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-11" value="______________________________________________________________________________________________________" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-11" value="______________________________________________________________________________________________________" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5410" y="-1300" width="700" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-12" value="nächste option wäre jeder nutzer hat nur eine node aber sie läuft immer permanent ==&amp;gt; hohe kosten da jeder nutzer immer eine node besitzt die permanent an ist und ich random geld dafür zahl auch wenn gar nciht benötigt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-12" value="nächste option wäre jeder nutzer hat nur eine node aber sie läuft immer permanent ==&amp;gt; hohe kosten da jeder nutzer immer eine node besitzt die permanent an ist und ich random geld dafür zahl auch wenn gar nciht benötigt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5215" y="-1365" width="1210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-13" value="Überlegung: Beratung vom drey oder vom johannes in anspruch nehemn?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-13" value="Überlegung: Beratung vom drey oder vom johannes in anspruch nehemn?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5250" y="-1510" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-14" value="________________________________________________________" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-14" value="________________________________________________________" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5280" y="-1480" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-16" value="==&amp;gt; Diese Version isses aber mit KENNZEICHNEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-16" value="==&amp;gt; Diese Version isses aber mit KENNZEICHNEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="6730" y="-1264" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-17" value="container not in use mit cleared root folder ==&amp;gt; name ist -READY&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;container in use aktiv mit individuellem root folder ==&amp;gt; name ist USED&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;container wo gerade frei wird ==&amp;gt; PENDING&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-17" value="container not in use mit cleared root folder ==&amp;gt; name ist -READY&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;container in use aktiv mit individuellem root folder ==&amp;gt; name ist USED&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;container wo gerade frei wird ==&amp;gt; PENDING&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="6680" y="-1171" width="400" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-18" value="ob der root clear ist überprüft man einfach anhandy com byte code des folders welcher gehasht wird&lt;div&gt;=&amp;gt; selber hash wie bei standard heißt er ist clear und ready for use&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-18" value="ob der root clear ist überprüft man einfach anhandy com byte code des folders welcher gehasht wird&lt;div&gt;=&amp;gt; selber hash wie bei standard heißt er ist clear und ready for use&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="7060" y="-1171" width="560" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-19" value="==&amp;gt; hash wäre ungleich&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-19" value="==&amp;gt; hash wäre ungleich&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="7080" y="-1119" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-20" value="IT SEC==&amp;gt; BEVOR EIN NUTZER SICH VERBINDET WIRD ÜBERPRÜFT OB DER HASH DES CONTAINERS MIT DEM ER SICH GLEICH CONNECTED WIRKLICH DERSLEBE IST WIE VOM PLAIN ROOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-20" value="IT SEC==&amp;gt; BEVOR EIN NUTZER SICH VERBINDET WIRD ÜBERPRÜFT OB DER HASH DES CONTAINERS MIT DEM ER SICH GLEICH CONNECTED WIRKLICH DERSLEBE IST WIE VOM PLAIN ROOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="6500" y="-1047.5" width="1130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-21" value="könnt ejz einfach n cluster upspinnen mit 3 default nodes (stannicontainer den jeder haben wird) die alle mit einer special node verbunden sind&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-21" value="könnt ejz einfach n cluster upspinnen mit 3 default nodes (stannicontainer den jeder haben wird) die alle mit einer special node verbunden sind&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="6663" y="-947" width="780" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-22" value="&lt;b&gt;TODO:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* jz bei den containern die ich abgespinned habe veruschen iwie n custom root folder unterzuschieben&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* vllt kann man einfach das volumne mount exchangen dann von den 2 einfach mal tauschen lassen vllt hilft das ja&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;==&amp;gt; vllt kommts zu fehlern da die blöcke die speichert wurdne in .lnd folder jz nicht mehr übereinstimmen und dann muss alles neu gefetched werden was zeit dauert aber das lässt sich dann später auch fixen indem man&lt;/div&gt;&lt;div&gt;die alten dazu beibehält / nciht rüber kopiert / die neue version rüber kopiert oder wie auch imemr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Danach kommt alles wietere unten hier:&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-22" value="&lt;b&gt;TODO:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* jz bei den containern die ich abgespinned habe veruschen iwie n custom root folder unterzuschieben&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* vllt kann man einfach das volumne mount exchangen dann von den 2 einfach mal tauschen lassen vllt hilft das ja&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;==&amp;gt; vllt kommts zu fehlern da die blöcke die speichert wurdne in .lnd folder jz nicht mehr übereinstimmen und dann muss alles neu gefetched werden was zeit dauert aber das lässt sich dann später auch fixen indem man&lt;/div&gt;&lt;div&gt;die alten dazu beibehält / nciht rüber kopiert / die neue version rüber kopiert oder wie auch imemr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Danach kommt alles wietere unten hier:&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5360" y="-855" width="1190" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="iN7IJg5jm9J71pLzGA63-6" target="0VRtoFeHFaYbxqHdzmZ6-23">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-6" target="0VRtoFeHFaYbxqHdzmZ6-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5110" y="-50" as="targetPoint" />
             <mxPoint x="4875" y="-50" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-23" value="Ingress Controller &amp;amp; Loadbalancer (Router)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0VRtoFeHFaYbxqHdzmZ6-23" value="Ingress Controller &amp;amp; Loadbalancer (Router)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4925" y="-80" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-26" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/58c529fc-efd2-4092-83ec-b39da39dfd24/content;imageAspect=0;lucidId=qQa33.95SpPk;" vertex="1" parent="1">
+          <mxGeometry x="2681.5400000000004" y="-1849" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-27" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/58c529fc-efd2-4092-83ec-b39da39dfd24/content;imageAspect=0;lucidId=wQa3q5G8tOYp;" vertex="1" parent="1">
+          <mxGeometry x="2756.5400000000004" y="-1849" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-28" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/58c529fc-efd2-4092-83ec-b39da39dfd24/content;imageAspect=0;lucidId=wQa3q5G8tOYp;" vertex="1" parent="1">
+          <mxGeometry x="2832.5400000000004" y="-1849" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="ly8C-pOrp5fuEkB1SObL-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2792" y="-1909" />
+              <mxPoint x="2706" y="-1909" />
+            </Array>
+            <mxPoint x="2792" y="-1943" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2781" y="-1859" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2816" y="-1902" />
+              <mxPoint x="2781" y="-1902" />
+            </Array>
+            <mxPoint x="2816" y="-1943" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ly8C-pOrp5fuEkB1SObL-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2841" y="-1943" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2842" y="-1943" />
+              <mxPoint x="2842" y="-1896" />
+              <mxPoint x="2856" y="-1896" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-32" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=0;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/c7cd9f77-4021-427f-993d-ed9b9327b44a/content;imageAspect=0;lucidId=KNa3qMqtXunB;" vertex="1" parent="1">
+          <mxGeometry x="2711.51" y="-1826" width="39.97" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-33" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=0;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/c7cd9f77-4021-427f-993d-ed9b9327b44a/content;imageAspect=0;lucidId=KNa3qMqtXunB;" vertex="1" parent="1">
+          <mxGeometry x="2785.57" y="-1826" width="39.97" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-34" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=0;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/c7cd9f77-4021-427f-993d-ed9b9327b44a/content;imageAspect=0;lucidId=KNa3qMqtXunB;" vertex="1" parent="1">
+          <mxGeometry x="2861.51" y="-1826" width="39.97" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2700" y="-1880.29" as="sourcePoint" />
+            <mxPoint x="2890" y="-1879" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-36" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/f152f6a4-48af-48eb-98b7-ee27c919694c/content;imageAspect=0;lucidId=uOa3z8~U84-R;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="-1827" width="20" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-37" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/f152f6a4-48af-48eb-98b7-ee27c919694c/content;imageAspect=0;lucidId=uOa3z8~U84-R;" vertex="1" parent="1">
+          <mxGeometry x="2750" y="-1828" width="20" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-38" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/f152f6a4-48af-48eb-98b7-ee27c919694c/content;imageAspect=0;lucidId=uOa3z8~U84-R;" vertex="1" parent="1">
+          <mxGeometry x="2825.54" y="-1828" width="20" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-39" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;SOCIAL RECOVERY Keys&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(still can be stopped by user if keys are not really lost and he is logged in)&lt;/span&gt;&lt;/span&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=1;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=rMa3INvS4URN;" vertex="1" parent="1">
+          <mxGeometry x="2698.07" y="-1789" width="182.47" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;" edge="1" parent="1" source="ly8C-pOrp5fuEkB1SObL-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2890" y="-1879" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2961" y="-1879" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-41" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/58c529fc-efd2-4092-83ec-b39da39dfd24/content;imageAspect=0;lucidId=wQa3q5G8tOYp;" vertex="1" parent="1">
+          <mxGeometry x="2936.51" y="-1769" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-42" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;ellipse;fontSize=13;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#5dfc31;strokeWidth=2.3;lucidId=TnJHVzUbkMEM;" vertex="1" parent="1">
+          <mxGeometry x="2936.51" y="-1782.5" width="13.49" height="13.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-43" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;ellipse;fontSize=13;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FF3333;strokeWidth=2.3;lucidId=TnJHVzUbkMEM;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2971.02" y="-1782.5" width="13.49" height="13.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-44" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;veto&lt;/span&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=1;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=rMa3INvS4URN;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="-1806" width="60.99" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-45" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;no veto&lt;/span&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=1;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=rMa3INvS4URN;" vertex="1" parent="1">
+          <mxGeometry x="2910.0299999999997" y="-1806" width="60.99" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly8C-pOrp5fuEkB1SObL-46" target="ly8C-pOrp5fuEkB1SObL-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-46" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=0;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/c7cd9f77-4021-427f-993d-ed9b9327b44a/content;imageAspect=0;lucidId=KNa3qMqtXunB;" vertex="1" parent="1">
+          <mxGeometry x="2756.05" y="-2010" width="99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-47" value="&lt;span style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;Password / 24 words&lt;/span&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=1;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=rMa3INvS4URN;" vertex="1" parent="1">
+          <mxGeometry x="2615.31" y="-2020" width="182.47" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-48" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2971.0200000000004" y="-2020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-49" value="&lt;span style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;Firebase&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;*******&lt;/span&gt;&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=1;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=rMa3INvS4URN;" vertex="1" parent="1">
+          <mxGeometry x="2982.6600000000003" y="-2014" width="56.72" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-51" value="&lt;span style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;encrypt&lt;/span&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=1;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=rMa3INvS4URN;" vertex="1" parent="1">
+          <mxGeometry x="2872.47" y="-2010" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ly8C-pOrp5fuEkB1SObL-52" value="&lt;span style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;decryption keys&lt;/span&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=1;align=center;spacing=3.8;strokeOpacity=0;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;lucidId=rMa3INvS4URN;" vertex="1" parent="1">
+          <mxGeometry x="2841.5" y="-1970" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
