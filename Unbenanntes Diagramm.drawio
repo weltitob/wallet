@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T09:28:00.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Z9JJQa9qkQRLjl6hQTtd" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T10:16:21.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="spY1OyjQIO22LmdKmgJP" version="24.6.5" type="github">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
     <mxGraphModel dx="4377" dy="3665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="IiCHIhFrDBEjQnNPdRvh-19" value="Applikation" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="IiCHIhFrDBEjQnNPdRvh-17" vertex="1">
           <mxGeometry x="240" width="240" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="IiCHIhFrDBEjQnNPdRvh-20" value="Fargate" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="IiCHIhFrDBEjQnNPdRvh-17" vertex="1">
+        <mxCell id="IiCHIhFrDBEjQnNPdRvh-20" value="AWS Fargate" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="IiCHIhFrDBEjQnNPdRvh-17" vertex="1">
           <mxGeometry x="480" width="240" height="720" as="geometry" />
         </mxCell>
         <mxCell id="IiCHIhFrDBEjQnNPdRvh-21" value="" style="fillColor=none;strokeColor=none;pointerEvents=0;fontStyle=0;html=1;whiteSpace=wrap;container=1;collapsible=0;childLayout=stackLayout;resizeParent=1;dropTarget=0;fontSize=13;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;" parent="1" vertex="1">
@@ -359,11 +359,11 @@
         <mxCell id="sxJeRuPL7pgXa73J8D-H-12" value="Auth Session and Token handling (user)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="799" y="713" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sxJeRuPL7pgXa73J8D-H-13" target="JIRlKSzxRrBwTQE3yDU5-32" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sxJeRuPL7pgXa73J8D-H-13" value="sign message with privatekey" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1045.5" y="679" width="120" height="60" as="geometry" />
+        <mxCell id="JIRlKSzxRrBwTQE3yDU5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165.500000000001" y="709" as="sourcePoint" />
+            <mxPoint x="1287.999999999999" y="709" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sxJeRuPL7pgXa73J8D-H-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sxJeRuPL7pgXa73J8D-H-14" target="sxJeRuPL7pgXa73J8D-H-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -371,11 +371,13 @@
         <mxCell id="sxJeRuPL7pgXa73J8D-H-14" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/bb708541-d75d-471f-a7f9-0906bae85a38/content;imageAspect=0;lucidId=AfJHi~NOvsix;" parent="1" vertex="1">
           <mxGeometry x="1065.4700000000003" y="404" width="78.52" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sxJeRuPL7pgXa73J8D-H-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sxJeRuPL7pgXa73J8D-H-15" target="sxJeRuPL7pgXa73J8D-H-12" edge="1">
+        <mxCell id="sxJeRuPL7pgXa73J8D-H-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sxJeRuPL7pgXa73J8D-H-15" target="5cI5NdyGflaBFF_WWoE6-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sxJeRuPL7pgXa73J8D-H-15" target="sxJeRuPL7pgXa73J8D-H-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="JIRlKSzxRrBwTQE3yDU5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sxJeRuPL7pgXa73J8D-H-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105.5294117647063" y="679" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sxJeRuPL7pgXa73J8D-H-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1084.73" y="604" width="40" height="40" as="geometry" />
@@ -447,7 +449,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sxJeRuPL7pgXa73J8D-H-53" value="Forward to register screen, type in username" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="595" width="120" height="60" as="geometry" />
+          <mxGeometry x="-70" y="577" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E5zbXxz6nN5Kfur28QHm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="E5zbXxz6nN5Kfur28QHm-1" target="E5zbXxz6nN5Kfur28QHm-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -549,8 +551,8 @@
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TcJM5gVhWRj09XjwWUyj-7" target="JIRlKSzxRrBwTQE3yDU5-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TcJM5gVhWRj09XjwWUyj-7" value="generate mnemonic for user" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="695" width="120" height="60" as="geometry" />
+        <mxCell id="TcJM5gVhWRj09XjwWUyj-7" value="generate mnemonic for user and save it in the secure storage of the device" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="685" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TcJM5gVhWRj09XjwWUyj-10" value="Kuebernetes cluster function?" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="1" vertex="1">
           <mxGeometry x="2830" y="-270" width="610" height="579.5" as="geometry" />
@@ -943,7 +945,7 @@
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-4" target="JIRlKSzxRrBwTQE3yDU5-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-4" value="sign message and save to firebase with username" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="JIRlKSzxRrBwTQE3yDU5-4" value="sign message / challenge and save to firebase with acossiated username" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -952,70 +954,43 @@
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-4" target="JIRlKSzxRrBwTQE3yDU5-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-9" target="JIRlKSzxRrBwTQE3yDU5-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-9" value="random docker with litd gets started and script executed with the mnemonic" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="900" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-10" target="JIRlKSzxRrBwTQE3yDU5-21" edge="1">
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-10">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="80" y="945" />
-              <mxPoint x="80" y="830" />
-            </Array>
+            <mxPoint x="-10" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-10" value="call fargate to create litd folder with the mnemonic include the signed message and userid" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="900" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-13" target="JIRlKSzxRrBwTQE3yDU5-15" edge="1">
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-10" target="5cI5NdyGflaBFF_WWoE6-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-13" target="JIRlKSzxRrBwTQE3yDU5-18" edge="1">
+        <mxCell id="JIRlKSzxRrBwTQE3yDU5-10" value="call fargate to create litd folder with the mnemonic iand userid" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="900" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-13" target="JIRlKSzxRrBwTQE3yDU5-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-13" value="have an active ses&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22random%20docker%20with%20litd%20gets%20started%20and%20script%20executed%20with%20the%20mnemonix%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22170%22%20y%3D%22900%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22random%20docker%20with%20litd%20gets%20started%20and%20script%20executed%20with%20the%20mnemonix%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22170%22%20y%3D%22900%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22random%20docker%20with%20litd%20gets%20started%20and%20script%20executed%20with%20the%20mnemonix%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22170%22%20y%3D%22900%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;sion&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-15" target="5cI5NdyGflaBFF_WWoE6-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-15" value="SESSION END (+20min) take the folder and save it in (Google) Cloud stoage with userid" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="1070" width="120" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-17" value="call official Bitnet node and transfer NFT to the new node" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-69.99999999999999" y="1169" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-18" target="JIRlKSzxRrBwTQE3yDU5-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-18" value="receive success of active session" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-69.99999999999999" y="1060" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-21" target="JIRlKSzxRrBwTQE3yDU5-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-21" value="security check (fb cloudfunction) against cloud storage with signed message" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="1116" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-28" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="816.5" y="848" width="85" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-32" target="JIRlKSzxRrBwTQE3yDU5-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-32" value="security check the signed message" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1288" y="679" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-33" target="JIRlKSzxRrBwTQE3yDU5-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-33" value="retrive the root folder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1288" y="763" width="120" height="60" as="geometry" />
+          <mxGeometry x="1288" y="679" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-34" target="JIRlKSzxRrBwTQE3yDU5-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-34" value="mount to litd docker and run it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1288" y="844" width="120" height="60" as="geometry" />
+        <mxCell id="JIRlKSzxRrBwTQE3yDU5-34" value="mount to litd container and execute it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1288" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-35" target="JIRlKSzxRrBwTQE3yDU5-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1024,12 +999,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-35" value="ACTIVE SESSION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1288" y="929" width="120" height="60" as="geometry" />
+          <mxGeometry x="1288" y="845" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-36" target="5cI5NdyGflaBFF_WWoE6-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-36" value="SESSION END (+20min) take the folder and override it in (Google) Cloud stoage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1288" y="1041.5" width="120" height="110" as="geometry" />
+          <mxGeometry x="1288" y="998" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-38" value="receive success message of the server&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-38" target="5cI5NdyGflaBFF_WWoE6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIRlKSzxRrBwTQE3yDU5-38" value="receive success message of the server =&amp;gt; user can now call the API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1043" y="929" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-46" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Login / Session start / (with litd)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -1111,11 +1092,62 @@
         <mxCell id="5cI5NdyGflaBFF_WWoE6-5" value="Firebase Function" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" vertex="1" parent="1">
           <mxGeometry x="503" y="514" width="240" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="5cI5NdyGflaBFF_WWoE6-6" value="Check if the hash exists in our database and assign it to a user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cI5NdyGflaBFF_WWoE6-6" target="JIRlKSzxRrBwTQE3yDU5-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="901" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cI5NdyGflaBFF_WWoE6-6" target="sxJeRuPL7pgXa73J8D-H-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-6" value="Check if the challenge exists in our database and retrive userid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="563" y="713" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5cI5NdyGflaBFF_WWoE6-9" value="Cloud Storage" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" vertex="1" parent="1">
           <mxGeometry x="753" y="790" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=33.75;exitPerimeter=0;entryX=0.6;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-28" target="5cI5NdyGflaBFF_WWoE6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-14" value="sign message with privatekey" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1045.5" y="679" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cI5NdyGflaBFF_WWoE6-18" target="JIRlKSzxRrBwTQE3yDU5-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-18" value="User logs off / ends session by closing the app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1045.5" y="1023" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1328.01" y="1146" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cI5NdyGflaBFF_WWoE6-24" target="JIRlKSzxRrBwTQE3yDU5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-24" value="create docker based on userid with litd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="900" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="JIRlKSzxRrBwTQE3yDU5-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1060" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9.947368421052488" y="1090" as="sourcePoint" />
+            <mxPoint x="-9.947368421052488" y="1126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-33" value="call the api endpoint and input the mnemonic to create a wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1126" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-34" value="receive success of active session" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-69.99999999999999" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-35" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1252" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
