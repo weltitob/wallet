@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T09:14:18.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="pLcJrsKuZKNlfWY82ucS" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T09:28:00.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Z9JJQa9qkQRLjl6hQTtd" version="24.6.5" type="github">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="3165" dy="3188" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4377" dy="3665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -996,11 +996,8 @@
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-21" value="security check (fb cloudfunction) against cloud storage with signed message" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-27" value="Cloud Storage" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="1" vertex="1">
-          <mxGeometry x="753" y="864" width="220" height="220" as="geometry" />
-        </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-28" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="820.5" y="936.5" width="85" height="105" as="geometry" />
+          <mxGeometry x="816.5" y="848" width="85" height="105" as="geometry" />
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-32" target="JIRlKSzxRrBwTQE3yDU5-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1010,11 +1007,6 @@
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-33" target="JIRlKSzxRrBwTQE3yDU5-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-33" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="863" y="869" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-33" value="retrive the root folder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1288" y="763" width="120" height="60" as="geometry" />
@@ -1033,13 +1025,6 @@
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-35" value="ACTIVE SESSION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1288" y="929" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JIRlKSzxRrBwTQE3yDU5-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-36" target="JIRlKSzxRrBwTQE3yDU5-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="863" y="1149" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="JIRlKSzxRrBwTQE3yDU5-36" value="SESSION END (+20min) take the folder and override it in (Google) Cloud stoage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1288" y="1041.5" width="120" height="110" as="geometry" />
@@ -1127,7 +1112,10 @@
           <mxGeometry x="503" y="514" width="240" height="720" as="geometry" />
         </mxCell>
         <mxCell id="5cI5NdyGflaBFF_WWoE6-6" value="Check if the hash exists in our database and assign it to a user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="566" y="707.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="563" y="713" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cI5NdyGflaBFF_WWoE6-9" value="Cloud Storage" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="753" y="790" width="220" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
