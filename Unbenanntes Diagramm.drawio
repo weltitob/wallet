@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T08:02:16.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="2qjKjseMMpuMCY5nTmJ_" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="5185" dy="3878" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4193" dy="3323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -964,7 +964,7 @@
         <mxCell id="5cI5NdyGflaBFF_WWoE6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-13" target="JIRlKSzxRrBwTQE3yDU5-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="asZeLcyLOUGv6FWcGrZ1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JIRlKSzxRrBwTQE3yDU5-13" target="5cI5NdyGflaBFF_WWoE6-33">
+        <mxCell id="asZeLcyLOUGv6FWcGrZ1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="JIRlKSzxRrBwTQE3yDU5-13" target="5cI5NdyGflaBFF_WWoE6-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="197" y="1023" />
@@ -1144,7 +1144,7 @@
             <mxPoint x="103.05263157894751" y="1059" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="asZeLcyLOUGv6FWcGrZ1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cI5NdyGflaBFF_WWoE6-33" target="JIRlKSzxRrBwTQE3yDU5-13">
+        <mxCell id="asZeLcyLOUGv6FWcGrZ1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="5cI5NdyGflaBFF_WWoE6-33" target="JIRlKSzxRrBwTQE3yDU5-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="188" y="1089" />
@@ -1152,7 +1152,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="asZeLcyLOUGv6FWcGrZ1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cI5NdyGflaBFF_WWoE6-33" target="asZeLcyLOUGv6FWcGrZ1-3">
+        <mxCell id="asZeLcyLOUGv6FWcGrZ1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5cI5NdyGflaBFF_WWoE6-33" target="asZeLcyLOUGv6FWcGrZ1-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5cI5NdyGflaBFF_WWoE6-33" value="call the api endpoint and input the mnemonic to create a wallet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1359,11 +1359,54 @@
         <mxCell id="5cI5NdyGflaBFF_WWoE6-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.399;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5cI5NdyGflaBFF_WWoE6-105" target="5cI5NdyGflaBFF_WWoE6-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="asZeLcyLOUGv6FWcGrZ1-3" value="hmmm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="asZeLcyLOUGv6FWcGrZ1-3" value="hmmm" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="43" y="1152" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asZeLcyLOUGv6FWcGrZ1-5" value="So if there is no userid based elastic file storage we will create one and we also need to mount to it so the data gets saved and if there is one already we simply mount to it" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="asZeLcyLOUGv6FWcGrZ1-5" value="So if there is no userid based elastic file storage we will create one and we also need to mount to it so the data gets saved and if there is one already we simply mount to it" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-265" y="1358" width="923" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-1" value="ECS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2926" y="892.5" width="564" height="423" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TgOtRNp_7wjWGJWidJqO-1" source="TgOtRNp_7wjWGJWidJqO-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231.5" y="102.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-2" value="User register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TgOtRNp_7wjWGJWidJqO-1">
+          <mxGeometry x="53.51" y="72.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TgOtRNp_7wjWGJWidJqO-1" source="TgOtRNp_7wjWGJWidJqO-3" target="TgOtRNp_7wjWGJWidJqO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-3" value="User logs in" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TgOtRNp_7wjWGJWidJqO-1">
+          <mxGeometry x="53.51" y="327.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-4" value="start the task with already existign efs usw" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TgOtRNp_7wjWGJWidJqO-1">
+          <mxGeometry x="237" y="327.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TgOtRNp_7wjWGJWidJqO-1" source="TgOtRNp_7wjWGJWidJqO-5" target="TgOtRNp_7wjWGJWidJqO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-5" value="efs mount point and so on gets started" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TgOtRNp_7wjWGJWidJqO-1">
+          <mxGeometry x="237" y="72.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TgOtRNp_7wjWGJWidJqO-1" source="TgOtRNp_7wjWGJWidJqO-9" target="TgOtRNp_7wjWGJWidJqO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497" y="372" />
+              <mxPoint x="357" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-9" value="db efs, taskid usw" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="TgOtRNp_7wjWGJWidJqO-1">
+          <mxGeometry x="450" y="62.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TgOtRNp_7wjWGJWidJqO-1" source="TgOtRNp_7wjWGJWidJqO-5" target="TgOtRNp_7wjWGJWidJqO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TgOtRNp_7wjWGJWidJqO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TgOtRNp_7wjWGJWidJqO-1" source="TgOtRNp_7wjWGJWidJqO-4" target="TgOtRNp_7wjWGJWidJqO-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
