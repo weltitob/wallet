@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4790" dy="3630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4312" dy="3384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1443,6 +1443,48 @@
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-27" value="Federation Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-19">
           <mxGeometry x="604" y="314" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-30" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Send Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="751" y="6339" width="978.47" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-34" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-30">
+          <mxGeometry x="13" y="39" width="952" height="446" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-35" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-34">
+          <mxGeometry x="368" y="166" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-28" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-34">
+          <mxGeometry x="185" y="161" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-30">
+          <mxGeometry x="13" y="496" width="952" height="446" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-37" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
+          <mxGeometry x="179" y="245" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Receive Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1781" y="6339" width="1015" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-33" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-32">
+          <mxGeometry x="123.53" y="192" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-32">
+          <mxGeometry x="16" y="39" width="979" height="446" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-39" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+          <mxGeometry x="368" y="166" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-40" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+          <mxGeometry x="185" y="161" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-41" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-32">
+          <mxGeometry x="18" y="497" width="979" height="446" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-42" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+          <mxGeometry x="368" y="166" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-43" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+          <mxGeometry x="185" y="161" width="126" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
