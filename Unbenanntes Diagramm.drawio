@@ -1450,11 +1450,14 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-34" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-30">
           <mxGeometry x="13" y="39" width="952" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-35" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-34">
-          <mxGeometry x="368" y="166" width="126" height="140" as="geometry" />
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-35" value="Firebase function confirms the ownership and sends request to the backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-34">
+          <mxGeometry x="323" y="150" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-28" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-34">
-          <mxGeometry x="185" y="161" width="126" height="140" as="geometry" />
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-28" value="Signed message as proof of ownership is sent to firebase function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-34">
+          <mxGeometry x="94" y="153" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-44" value="SendPayment is triggered in the strripped LND lightningnode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-34">
+          <mxGeometry x="575" y="153" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-30">
           <mxGeometry x="13" y="496" width="952" height="446" as="geometry" />
