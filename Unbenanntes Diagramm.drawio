@@ -1417,8 +1417,8 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Google Cloud (firebase)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="351" y="3572" width="960" height="858.25" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-6" value="Ingress Controller &amp;amp; Loadbalancer (Router)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2651" y="3725" width="130" height="60" as="geometry" />
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-6" value="Nach 3 Wochen inaktivität stoppt man dann haklt die node die hat eh n eigenes efs system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2596" y="3760" width="130" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
