@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4790" dy="3630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6497" dy="4509" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1412,7 +1412,10 @@
           <mxGeometry x="1384" y="2661" width="960" height="858.25" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Node Setup&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="4111" width="960" height="858.25" as="geometry" />
+          <mxGeometry x="1387" y="3725" width="960" height="858.25" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Google Cloud (firebase)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="3132" width="960" height="858.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
