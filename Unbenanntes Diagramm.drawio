@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="7180" dy="4860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4790" dy="3630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1429,14 +1429,20 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-17" value="LNURLS oder BOLT 12 können für permanente ... gpeostet werden" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-3">
           <mxGeometry x="616" y="604" width="126" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-18" value="LNURLS oder BOLT 12 können für permanente ... gpeostet werden" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-3">
+          <mxGeometry x="610" y="402" width="126" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Google Cloud (firebase)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="351" y="3572" width="960" height="858.25" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-18" value="LNURLS oder BOLT 12 können für permanente ... gpeostet werden" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2052" y="4232" width="126" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-19" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;EC2 AWS Master Node (Liquidity Provider &amp;amp; Channel Maintainer)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2430" y="3629" width="960" height="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-26" value="LITD Master Node" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-19">
+          <mxGeometry x="596" y="141" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-27" value="Federation Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-19">
+          <mxGeometry x="604" y="314" width="130" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
