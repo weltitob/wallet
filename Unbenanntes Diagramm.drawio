@@ -1486,26 +1486,26 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Receive Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1781" y="6339" width="1015" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-33" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-32" vertex="1">
-          <mxGeometry x="123.53" y="192" width="126" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-32" vertex="1">
           <mxGeometry x="16" y="39" width="979" height="446" as="geometry" />
-        </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-39" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" vertex="1">
-          <mxGeometry x="368" y="166" width="126" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-40" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" vertex="1">
-          <mxGeometry x="185" y="161" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-41" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-32" vertex="1">
           <mxGeometry x="18" y="497" width="979" height="446" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-42" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
-          <mxGeometry x="368" y="166" width="126" height="140" as="geometry" />
+          <mxGeometry x="247" y="160" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-43" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
-          <mxGeometry x="185" y="161" width="126" height="140" as="geometry" />
+          <mxGeometry x="61" y="160" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-8" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+          <mxGeometry x="433" y="160" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-9" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+          <mxGeometry x="619" y="160" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-10" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+          <mxGeometry x="805" y="153" width="126" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
