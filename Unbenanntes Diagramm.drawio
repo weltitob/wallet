@@ -1433,7 +1433,7 @@
           <mxGeometry x="610" y="402" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Google Cloud (firebase)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="443" y="3610" width="960" height="858.25" as="geometry" />
+          <mxGeometry x="441" y="3618" width="960" height="1136" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-19" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;EC2 AWS Master Node (Liquidity Provider &amp;amp; Channel Maintainer)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2430" y="3629" width="960" height="1135" as="geometry" />
