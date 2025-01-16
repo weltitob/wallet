@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="3834" dy="3138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3647" dy="3042" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1504,7 +1504,7 @@
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-20" target="fQ0U4w6g0uYxdMnspSuI-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-20" value="Node generiert Invoice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-20" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
           <mxGeometry x="428.5" y="162" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-21" value="Middleware schiebt es in die firebase datenbank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
@@ -1534,7 +1534,7 @@
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="fQ0U4w6g0uYxdMnspSuI-8" target="fQ0U4w6g0uYxdMnspSuI-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-8" value="Node generiert Invoice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-8" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
           <mxGeometry x="433" y="160" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-9" value="Middleware schiebt es in die firebase datenbank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
