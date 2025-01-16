@@ -1480,7 +1480,7 @@
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-4" value="Firebase function confirms the ownership and sends request to the backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
           <mxGeometry x="396" y="167" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-5" value="SendPayment is triggered in the strripped LITD lightningnode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-5" value="SendPayment is triggered" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
           <mxGeometry x="701" y="167" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Receive Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
