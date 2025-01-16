@@ -1409,7 +1409,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Node Setup&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1384" y="2661" width="960" height="858.25" as="geometry" />
+          <mxGeometry x="1424" y="2739" width="960" height="858.25" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;EC2 AWS Node Setup&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1426" y="3618" width="960" height="1135" as="geometry" />
