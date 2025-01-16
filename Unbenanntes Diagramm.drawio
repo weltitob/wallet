@@ -1436,7 +1436,7 @@
           <mxGeometry x="441" y="3618" width="960" height="1136" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-19" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;EC2 AWS Master Node (Liquidity Provider &amp;amp; Channel Maintainer)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2413.5" y="3619" width="960" height="1131" as="geometry" />
+          <mxGeometry x="2406" y="3618" width="960" height="1137" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-26" value="LITD Master Node" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-19" vertex="1">
           <mxGeometry x="596" y="141" width="130" height="140" as="geometry" />
