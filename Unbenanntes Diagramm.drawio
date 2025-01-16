@@ -1468,8 +1468,8 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-30" vertex="1">
           <mxGeometry x="13" y="496" width="952" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-37" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-36" vertex="1">
-          <mxGeometry x="179" y="245" width="126" height="140" as="geometry" />
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-3" value="Signed message as proof of ownership is sent to firebase function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
+          <mxGeometry x="94" y="167" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Receive Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1781" y="6339" width="1015" height="960" as="geometry" />
