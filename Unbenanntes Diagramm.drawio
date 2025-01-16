@@ -1492,20 +1492,32 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-41" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-32" vertex="1">
           <mxGeometry x="18" y="497" width="979" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-42" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="j5rwrClGnJFs_iM7-aKg-42" target="fQ0U4w6g0uYxdMnspSuI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-42" value="Firerbase function gibt an die node weiter" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
           <mxGeometry x="247" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="j5rwrClGnJFs_iM7-aKg-43" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="j5rwrClGnJFs_iM7-aKg-43" target="j5rwrClGnJFs_iM7-aKg-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5rwrClGnJFs_iM7-aKg-43" value="Bitcoin erhalten request" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
           <mxGeometry x="61" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-8" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="fQ0U4w6g0uYxdMnspSuI-8" target="fQ0U4w6g0uYxdMnspSuI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-8" value="Node generiert Invoice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
           <mxGeometry x="433" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-9" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-9" value="Middleware schiebt es in die firebase datenbank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
           <mxGeometry x="619" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-10" value="Bitcoin versende" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
-          <mxGeometry x="805" y="153" width="126" height="140" as="geometry" />
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-10" value="Bitcoin erhalten code in der app von firebase listener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+          <mxGeometry x="805" y="151" width="126" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="fQ0U4w6g0uYxdMnspSuI-9" target="fQ0U4w6g0uYxdMnspSuI-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
