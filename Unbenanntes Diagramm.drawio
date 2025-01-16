@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="5268" dy="3876" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6497" dy="4509" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1427,7 +1427,7 @@
           <mxGeometry x="367" y="91" width="130" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-17" value="LNURLS oder BOLT 12 können für permanente ... gpeostet werden" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-3" vertex="1">
-          <mxGeometry x="616" y="604" width="126" height="140" as="geometry" />
+          <mxGeometry x="474" y="266" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-18" value="LNURLS oder BOLT 12 können für permanente ... gpeostet werden" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-3" vertex="1">
           <mxGeometry x="610" y="402" width="126" height="140" as="geometry" />
