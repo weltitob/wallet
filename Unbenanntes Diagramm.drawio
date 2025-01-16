@@ -1552,8 +1552,8 @@
             <mxPoint x="3171" y="5327" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-25" value="2of2 recovery&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3663" y="5627" width="60" height="30" as="geometry" />
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-25" value="2of2 recovery&lt;div&gt;* Ich halt n key und mache regelmäßige nutzerbackups bei lightning (quasie vershclüsselte version von nutzerdaten mit privatekey verschlüsselt immer wenn gewisser amount treshhold oder zeit abgelaufen ist)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Nutzer hält nur einen privatekey&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3663" y="5529" width="355" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
