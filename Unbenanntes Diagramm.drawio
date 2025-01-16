@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="3647" dy="3042" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11960" dy="7320" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1445,7 +1445,7 @@
           <mxGeometry x="604" y="314" width="130" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-30" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Send Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="751" y="6339" width="978.47" height="960" as="geometry" />
+          <mxGeometry x="951" y="5446" width="978.47" height="960" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-34" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-30" vertex="1">
           <mxGeometry x="13" y="39" width="952" height="446" as="geometry" />
@@ -1484,7 +1484,7 @@
           <mxGeometry x="701" y="167" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Receive Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1781" y="6339" width="1015" height="960" as="geometry" />
+          <mxGeometry x="1981" y="5446" width="1015" height="960" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-32" vertex="1">
           <mxGeometry x="16" y="39" width="979" height="446" as="geometry" />
