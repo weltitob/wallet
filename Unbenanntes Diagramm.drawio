@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4062" dy="3742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7560" dy="4872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1450,13 +1450,13 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-34" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-30" vertex="1">
           <mxGeometry x="13" y="39" width="952" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-34" source="j5rwrClGnJFs_iM7-aKg-35" target="j5rwrClGnJFs_iM7-aKg-44">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5rwrClGnJFs_iM7-aKg-34" source="j5rwrClGnJFs_iM7-aKg-35" target="j5rwrClGnJFs_iM7-aKg-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-35" value="Firebase function confirms the ownership and sends request to the backend" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-34" vertex="1">
           <mxGeometry x="401" y="153" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-34" source="j5rwrClGnJFs_iM7-aKg-28" target="j5rwrClGnJFs_iM7-aKg-35">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="j5rwrClGnJFs_iM7-aKg-34" source="j5rwrClGnJFs_iM7-aKg-28" target="j5rwrClGnJFs_iM7-aKg-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-28" value="Signed message as proof of ownership is sent to firebase function" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-34" vertex="1">
@@ -1468,19 +1468,19 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-30" vertex="1">
           <mxGeometry x="13" y="496" width="952" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-36" source="fQ0U4w6g0uYxdMnspSuI-3" target="fQ0U4w6g0uYxdMnspSuI-4">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5rwrClGnJFs_iM7-aKg-36" source="fQ0U4w6g0uYxdMnspSuI-3" target="fQ0U4w6g0uYxdMnspSuI-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-3" value="Signed message as proof of ownership is sent to firebase function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-3" value="Signed message as proof of ownership is sent to firebase function" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-36" vertex="1">
           <mxGeometry x="94" y="167" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-36" source="fQ0U4w6g0uYxdMnspSuI-4" target="fQ0U4w6g0uYxdMnspSuI-5">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5rwrClGnJFs_iM7-aKg-36" source="fQ0U4w6g0uYxdMnspSuI-4" target="fQ0U4w6g0uYxdMnspSuI-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-4" value="Firebase function confirms the ownership and sends request to the backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-4" value="Firebase function confirms the ownership and sends request to the backend" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-36" vertex="1">
           <mxGeometry x="396" y="167" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-5" value="SendPayment is triggered" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-36">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-5" value="SendPayment is triggered" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-36" vertex="1">
           <mxGeometry x="701" y="167" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Receive Bitcoin&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1489,92 +1489,95 @@
         <mxCell id="j5rwrClGnJFs_iM7-aKg-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Lightning Online&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-32" vertex="1">
           <mxGeometry x="16" y="39" width="982" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-16" target="fQ0U4w6g0uYxdMnspSuI-20">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-16" target="fQ0U4w6g0uYxdMnspSuI-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-16" value="Firerbase function gibt an die node weiter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-16" value="Firerbase function gibt an die node weiter" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" vertex="1">
           <mxGeometry x="242.5" y="162" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-18" target="fQ0U4w6g0uYxdMnspSuI-16">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-18" target="fQ0U4w6g0uYxdMnspSuI-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-18" value="Bitcoin erhalten request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-18" value="Bitcoin erhalten request" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" vertex="1">
           <mxGeometry x="56.5" y="162" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-20" target="fQ0U4w6g0uYxdMnspSuI-21">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-20" target="fQ0U4w6g0uYxdMnspSuI-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-20" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-20" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" vertex="1">
           <mxGeometry x="428.5" y="162" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-21" value="Middleware schiebt es in die firebase datenbank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-21" value="Middleware schiebt es in die firebase datenbank" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" vertex="1">
           <mxGeometry x="614.5" y="162" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-22" value="Bitcoin erhalten code in der app von firebase listener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-38">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-22" value="Bitcoin erhalten code in der app von firebase listener" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-38" vertex="1">
           <mxGeometry x="800.5" y="153" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-21" target="fQ0U4w6g0uYxdMnspSuI-22">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" parent="j5rwrClGnJFs_iM7-aKg-38" source="fQ0U4w6g0uYxdMnspSuI-21" target="fQ0U4w6g0uYxdMnspSuI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-41" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OnChain&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-32" vertex="1">
           <mxGeometry x="18" y="497" width="979" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="j5rwrClGnJFs_iM7-aKg-42" target="fQ0U4w6g0uYxdMnspSuI-8">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" source="j5rwrClGnJFs_iM7-aKg-42" target="fQ0U4w6g0uYxdMnspSuI-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-42" value="Firerbase function gibt an die node weiter" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
           <mxGeometry x="247" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="j5rwrClGnJFs_iM7-aKg-43" target="j5rwrClGnJFs_iM7-aKg-42">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="j5rwrClGnJFs_iM7-aKg-41" source="j5rwrClGnJFs_iM7-aKg-43" target="j5rwrClGnJFs_iM7-aKg-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-43" value="Bitcoin erhalten request" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
           <mxGeometry x="61" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="fQ0U4w6g0uYxdMnspSuI-8" target="fQ0U4w6g0uYxdMnspSuI-9">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" source="fQ0U4w6g0uYxdMnspSuI-8" target="fQ0U4w6g0uYxdMnspSuI-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-8" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-8" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
           <mxGeometry x="433" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-9" value="Middleware schiebt es in die firebase datenbank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-9" value="Middleware schiebt es in die firebase datenbank" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
           <mxGeometry x="619" y="160" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-10" value="Bitcoin erhalten code in der app von firebase listener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5rwrClGnJFs_iM7-aKg-41">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-10" value="Bitcoin erhalten code in der app von firebase listener" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-41" vertex="1">
           <mxGeometry x="805" y="151" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="j5rwrClGnJFs_iM7-aKg-41" source="fQ0U4w6g0uYxdMnspSuI-9" target="fQ0U4w6g0uYxdMnspSuI-10">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" parent="j5rwrClGnJFs_iM7-aKg-41" source="fQ0U4w6g0uYxdMnspSuI-9" target="fQ0U4w6g0uYxdMnspSuI-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-24" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="5305" as="sourcePoint" />
             <mxPoint x="3171" y="5327" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-25" value="2of2 recovery&lt;div&gt;* Ich halt n key und mache regelmäßige nutzerbackups bei lightning (quasie vershclüsselte version von nutzerdaten mit privatekey verschlüsselt immer wenn gewisser amount treshhold oder zeit abgelaufen ist)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Nutzer hält nur einen privatekey auf dem device also n halben und wir sagen ihm er soll den ganzen aufschreiben und er hälr noch die channel stuff sachen auf seinem device aber auch immer alles verschlüsselt mit dem halben privatekey und gemeinsam mit meinem anteil können wirs dann imemr in den firebase functions entschlüsseln&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;oder er hält die channel daten plain hmmm das noch genau überlegen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aber die firebase fucntions sind basically alle lnd services abgekapselt und einzelend und wir providen die abckend sachen und die user wallet usw müssen das alles immer wiede rneu bauen - ja das wird craazzzy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Skalierbarkeit ist aber AMAZING ++&lt;/div&gt;&lt;div&gt;Nutzerexperience ist AMAZING ++&lt;/div&gt;&lt;div&gt;Die Idee ist AMZAING ++&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AUFWAND --&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Muun style setup ist auch ditschbar ==&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Wir könne auch n email und pw den nutzer hinterlegen lassen&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;dann speichern wir seinen privatekey verschlüsselt mit seinem pw bei uns in der cloud und das kann er dann per mail recovern wenn er umbedingt will&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Oder er macht halt die social recovery option die geht ja auch&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Das ist deutlich besser und wir zeigen dem nutzer seinen privatekey beim setup gar nicht mehr einfach&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stattdessen so ne security warnung oder so&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-25" value="2of2 recovery&lt;div&gt;* Ich halt n key und mache regelmäßige nutzerbackups bei lightning (quasie vershclüsselte version von nutzerdaten mit privatekey verschlüsselt immer wenn gewisser amount treshhold oder zeit abgelaufen ist)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Nutzer hält nur einen privatekey auf dem device also n halben und wir sagen ihm er soll den ganzen aufschreiben und er hälr noch die channel stuff sachen auf seinem device aber auch immer alles verschlüsselt mit dem halben privatekey und gemeinsam mit meinem anteil können wirs dann imemr in den firebase functions entschlüsseln&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;oder er hält die channel daten plain hmmm das noch genau überlegen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aber die firebase fucntions sind basically alle lnd services abgekapselt und einzelend und wir providen die abckend sachen und die user wallet usw müssen das alles immer wiede rneu bauen - ja das wird craazzzy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Skalierbarkeit ist aber AMAZING ++&lt;/div&gt;&lt;div&gt;Nutzerexperience ist AMAZING ++&lt;/div&gt;&lt;div&gt;Die Idee ist AMZAING ++&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AUFWAND --&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Muun style setup ist auch ditschbar ==&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Wir könne auch n email und pw den nutzer hinterlegen lassen&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;dann speichern wir seinen privatekey verschlüsselt mit seinem pw bei uns in der cloud und das kann er dann per mail recovern wenn er umbedingt will&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Oder er macht halt die social recovery option die geht ja auch&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Das ist deutlich besser und wir zeigen dem nutzer seinen privatekey beim setup gar nicht mehr einfach&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stattdessen so ne security warnung oder so&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3663" y="5397" width="355" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-579" y="5561" width="1114" height="791" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;LSP Architektur (Tubro Channels &amp;amp; 0 COnf Channels)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;LSP Architektur (Tubro Channels &amp;amp; 0 COnf Channels)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-290" y="5469" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-28" value="&lt;b&gt;Was wenn offline?&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Was wenn online sogar da listend ja keine node auf updates habe ja nix runnen&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-28" value="&lt;b&gt;Was wenn offline?&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Was wenn online sogar da listend ja keine node auf updates habe ja nix runnen&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3099" y="5552" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-35" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-35" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3150" y="5719" width="126" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-39" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-39" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3351" y="5812" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-40" value="&lt;b&gt;Dieser service kann abgespaltet werden um permanent 24/7 runnen?&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-40" value="&lt;b&gt;Dieser service kann abgespaltet werden um permanent 24/7 runnen?&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3340" y="5549" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fQ0U4w6g0uYxdMnspSuI-41" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;displayMode&amp;quot;:null,&amp;quot;isNumberColumnEnabled&amp;quot;:false,&amp;quot;layout&amp;quot;:&amp;quot;center&amp;quot;,&amp;quot;localId&amp;quot;:&amp;quot;9773ee4e-1465-436e-9cf2-072edb8d65c7&amp;quot;,&amp;quot;width&amp;quot;:1338,&amp;quot;__autoSize&amp;quot;:false},&amp;quot;tableRow&amp;quot;,null,&amp;quot;tableCell&amp;quot;,{&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;colwidth&amp;quot;:null,&amp;quot;background&amp;quot;:null},&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;das erhalten von zahlungen triggert ja im normalfall eine notifcation bzw es gibt einen sevrice bei dem man listenen kann aber wnen ich als lsp mit meinen nutzern alleine erbunden bin kann ich dann nicht alle lightning zahlungen die ich bekomme / route und die zu meinen eigenen nutzern gehen sehen und damit weiss ich auch dass es n update gibt und muss keinen server 24/7 betreiben oder&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fQ0U4w6g0uYxdMnspSuI-41" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;displayMode&amp;quot;:null,&amp;quot;isNumberColumnEnabled&amp;quot;:false,&amp;quot;layout&amp;quot;:&amp;quot;center&amp;quot;,&amp;quot;localId&amp;quot;:&amp;quot;9773ee4e-1465-436e-9cf2-072edb8d65c7&amp;quot;,&amp;quot;width&amp;quot;:1338,&amp;quot;__autoSize&amp;quot;:false},&amp;quot;tableRow&amp;quot;,null,&amp;quot;tableCell&amp;quot;,{&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;colwidth&amp;quot;:null,&amp;quot;background&amp;quot;:null},&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;das erhalten von zahlungen triggert ja im normalfall eine notifcation bzw es gibt einen sevrice bei dem man listenen kann aber wnen ich als lsp mit meinen nutzern alleine erbunden bin kann ich dann nicht alle lightning zahlungen die ich bekomme / route und die zu meinen eigenen nutzern gehen sehen und damit weiss ich auch dass es n update gibt und muss keinen server 24/7 betreiben oder&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3048" y="5924" width="350" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="-vxdCDrEvQ07Rtavf4AS-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/breez/breez-sdk-docs/raw/main/src/images/BreezSDK_Greenlight.png;" vertex="1" parent="1">
+          <mxGeometry x="3666" y="3979" width="1200" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
