@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="5444" dy="3742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10770" dy="6090" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7VzrrO1-igG2bRUEYanR-52" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2441" y="1815" width="1470" height="1470" as="geometry" />
+          <mxGeometry x="5040" y="2135" width="1470" height="1470" as="geometry" />
         </mxCell>
         <mxCell id="IiCHIhFrDBEjQnNPdRvh-15" value="" style="fillColor=none;strokeColor=none;pointerEvents=0;fontStyle=0;html=1;whiteSpace=wrap;container=1;collapsible=0;childLayout=stackLayout;resizeParent=1;dropTarget=0;fontSize=13;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;" parent="1" vertex="1">
           <mxGeometry x="1686" y="-770" width="795" height="550" as="geometry" />
@@ -605,160 +605,160 @@
           <mxGeometry x="3580" y="600" width="660" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-1" value="Fullnode Bitcoin backend" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" parent="1" vertex="1">
-          <mxGeometry x="3136" y="2193.5" width="110" height="95" as="geometry" />
+          <mxGeometry x="5735" y="2513.5" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-2" value="FullNode Cluster" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="1" vertex="1">
-          <mxGeometry x="3111" y="2136" width="160" height="430" as="geometry" />
+          <mxGeometry x="5710" y="2456" width="160" height="430" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-3" value="Fullnode Bitcoin backend" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" parent="1" vertex="1">
-          <mxGeometry x="3136" y="2328.5" width="110" height="95" as="geometry" />
+          <mxGeometry x="5735" y="2648.5" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-4" value="Fullnode Bitcoin backend" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" parent="1" vertex="1">
-          <mxGeometry x="3136" y="2446" width="110" height="95" as="geometry" />
+          <mxGeometry x="5735" y="2766" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="0VRtoFeHFaYbxqHdzmZ6-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3111" y="2365.5" as="targetPoint" />
+            <mxPoint x="5710" y="2685.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-6" value="Ingress Controller &amp;amp; Loadbalancer (Router)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2746" y="2335.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="5345" y="2655.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-8" value="Plug &amp;amp; Play (Ohne Root) Cluster" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=60;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2521" y="2115.5" width="180" height="525" as="geometry" />
+          <mxGeometry x="5120" y="2435.5" width="180" height="525" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-9" value="Pod 1 (pausiert ohne root)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" parent="1" vertex="1">
-          <mxGeometry x="2551" y="2200.5" width="110" height="95" as="geometry" />
+          <mxGeometry x="5150" y="2520.5" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2741" y="2368" as="targetPoint" />
+            <mxPoint x="5340" y="2688" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-10" value="Pod 2 (pausiert ohne root)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" parent="1" vertex="1">
-          <mxGeometry x="2551" y="2320.5" width="110" height="95" as="geometry" />
+          <mxGeometry x="5150" y="2640.5" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2821" y="2405.5" as="targetPoint" />
+            <mxPoint x="5420" y="2725.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-11" value="Pod 3 (pausiert ohne root)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;lucidId=x5IHWKZJCBiD;" parent="1" vertex="1">
-          <mxGeometry x="2551" y="2438" width="110" height="95" as="geometry" />
+          <mxGeometry x="5150" y="2758" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-13" value="mit privatekey encrypted /root Folder - userspecific Data&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(insgesamt auch mit macaroons)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="3247" y="3000.5" width="130" height="160" as="geometry" />
+          <mxGeometry x="5846" y="3320.5" width="130" height="160" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="iN7IJg5jm9J71pLzGA63-15" target="iN7IJg5jm9J71pLzGA63-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-15" value="Ingress Controller &amp;amp; Loadbalancer (Router)&lt;div&gt;(Dann scheiss egal wohin geroutet wird)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2880" y="2538" width="130" height="72.5" as="geometry" />
+          <mxGeometry x="5479" y="2858" width="130" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-20" value="Wenn er so die Daten reinlädt in einen pod wird dieser hm zugeordnet für eine session (während er halt online ist)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; funktioniert das einfach so schnell weil die pods laufen ja nicht die müssten erst hochfahren aber hoffnugn ist dass das quaise instant geht weil die fullnodes im backend die daten speichern und der rest ja im root folder drin ist&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3331" y="2775.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="5930" y="3095.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iN7IJg5jm9J71pLzGA63-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2601" y="2545.5" as="targetPoint" />
+            <mxPoint x="5200" y="2865.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2601" y="2621.5" />
-              <mxPoint x="2602" y="2535.5" />
+              <mxPoint x="5200" y="2941.5" />
+              <mxPoint x="5201" y="2855.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-23" value="macaroons des users in der app verwenden und mit dem server verbinden&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;==&amp;gt; mit welchem server problem wieder...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2521" y="2695.5" width="150" height="115" as="geometry" />
+          <mxGeometry x="5120" y="3015.5" width="150" height="115" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-27" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2781" y="2640.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="5380" y="2960.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-30" value="3 (direkter zugriff auf einen der Container)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2481" y="2650.5" width="250" height="30" as="geometry" />
+          <mxGeometry x="5080" y="2970.5" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iN7IJg5jm9J71pLzGA63-33" target="iN7IJg5jm9J71pLzGA63-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-33" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;privateKey&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;(locally saved)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="2922" y="2805.5" width="88" height="80" as="geometry" />
+          <mxGeometry x="5521" y="3125.5" width="88" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-35" value="Firebase" style="swimlane;html=1;whiteSpace=wrap;connectable=0;fontStyle=0;startSize=30;dropTarget=0;rounded=0;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;strokeWidth=2.3;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=16.7;fontColor=#333333;align=center;" parent="1" vertex="1">
-          <mxGeometry x="3201" y="2955.5" width="210" height="230" as="geometry" />
+          <mxGeometry x="5800" y="3275.5" width="210" height="230" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iN7IJg5jm9J71pLzGA63-39" target="iN7IJg5jm9J71pLzGA63-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-39" value="signed iwas als beweis für dne login und auch für die session tokens login und register läuft ja auch so da hab ich ja noch die alte logik die eifnach n bisschen umbauen" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2876" y="2953" width="180" height="115" as="geometry" />
+          <mxGeometry x="5475" y="3273" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-41" value="der /root ordner sieht ja initiell bei allen&lt;div&gt;gleich aus bei der registierung&lt;/div&gt;&lt;div&gt;wird dem user so ein ordner zugewiesen&lt;/div&gt;&lt;div&gt;in der firebase cloud (und lokal maybe auch)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3411" y="3000.5" width="260" height="70" as="geometry" />
+          <mxGeometry x="6010" y="3320.5" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-43" value="logged in (hat Zugriff auf firebase)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2876" y="3125.5" width="180" height="60" as="geometry" />
+          <mxGeometry x="5475" y="3445.5" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-45" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3136" y="2795.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="5735" y="3115.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.029;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="iN7IJg5jm9J71pLzGA63-52" target="iN7IJg5jm9J71pLzGA63-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-47" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2701" y="2695.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="5300" y="3015.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-48" value="Die wichtige frage ist dass da keine sachen drin sidn wie bei .lnd die chain&lt;div&gt;bzw. dass es sich wirklich schnell updated nach dem setup oben&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3411" y="3120.5" width="420" height="40" as="geometry" />
+          <mxGeometry x="6010" y="3440.5" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iN7IJg5jm9J71pLzGA63-62" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2951" y="2735.5" as="sourcePoint" />
-            <mxPoint x="2881" y="2735.5" as="targetPoint" />
+            <mxPoint x="5550" y="3055.5" as="sourcePoint" />
+            <mxPoint x="5480" y="3055.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="iN7IJg5jm9J71pLzGA63-52" target="iN7IJg5jm9J71pLzGA63-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2811" y="2655.5" />
-              <mxPoint x="2945" y="2655.5" />
+              <mxPoint x="5410" y="2975.5" />
+              <mxPoint x="5544" y="2975.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-52" value="decrypt the /root folder&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2746" y="2705.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="5345" y="3025.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-13" target="iN7IJg5jm9J71pLzGA63-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3311" y="3000.5" as="sourcePoint" />
-            <mxPoint x="3031" y="2735.5" as="targetPoint" />
+            <mxPoint x="5910" y="3320.5" as="sourcePoint" />
+            <mxPoint x="5630" y="3055.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3305" y="2735.5" />
+              <mxPoint x="5904" y="3055.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="3106" y="2705.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="5705" y="3025.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" parent="1" source="iN7IJg5jm9J71pLzGA63-12" target="iN7IJg5jm9J71pLzGA63-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3121" y="2858.5" />
+              <mxPoint x="5720" y="3178.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iN7IJg5jm9J71pLzGA63-12" target="iN7IJg5jm9J71pLzGA63-62" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3106" y="2735.5" as="sourcePoint" />
-            <mxPoint x="2881" y="2735.5" as="targetPoint" />
+            <mxPoint x="5705" y="3055.5" as="sourcePoint" />
+            <mxPoint x="5480" y="3055.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-62" value="fetch firebase root folder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2930" y="2705.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="5529" y="3025.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-66" value="Daten in pod laden (root) + starten lassen iwie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2781" y="2503" width="270" height="30" as="geometry" />
+          <mxGeometry x="5380" y="2823" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-67" value="&lt;b&gt;WENN DIE USER SESSION ENDET WIRD DER ROOT&lt;/b&gt;&lt;div&gt;&lt;b&gt;ORDNER WIEDER AUS DEM POD GELÖSCHT&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2521" y="2053" width="320" height="40" as="geometry" />
+          <mxGeometry x="5120" y="2373" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iN7IJg5jm9J71pLzGA63-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.557;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-9" target="iN7IJg5jm9J71pLzGA63-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -770,7 +770,7 @@
           <mxGeometry x="5390" y="-375" width="1110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-5" value="MÖGLICHE IMPLEMENTIERUNG ABER 4-5s jedes mal wenn der user ne neue node connection braucht" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3271" y="2405.5" width="590" height="30" as="geometry" />
+          <mxGeometry x="5870" y="2725.5" width="590" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-6" value="Alternativoption die nodes werdne gar nicht immer erst gestartet wenn ein nutzer sich verbindet SONDERN SIE haben einen Defaultodner und SIND IMMER AN und nur die nutzerspezifischen ordner under da hood werden undercover exchanged wenn ich ne funktion ausführe" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5055" y="-1208" width="1490" height="30" as="geometry" />
@@ -822,12 +822,12 @@
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="iN7IJg5jm9J71pLzGA63-6" target="0VRtoFeHFaYbxqHdzmZ6-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3111" y="2365.5" as="targetPoint" />
-            <mxPoint x="2876" y="2365.5" as="sourcePoint" />
+            <mxPoint x="5710" y="2685.5" as="targetPoint" />
+            <mxPoint x="5475" y="2685.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0VRtoFeHFaYbxqHdzmZ6-23" value="Ingress Controller &amp;amp; Loadbalancer (Router)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2926" y="2335.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="5525" y="2655.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ly8C-pOrp5fuEkB1SObL-26" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=image;fontSize=13;spacing=3.8;strokeColor=none;strokeOpacity=100;strokeWidth=0;image=https://images.lucid.app/images/58c529fc-efd2-4092-83ec-b39da39dfd24/content;imageAspect=0;lucidId=qQa33.95SpPk;" parent="1" vertex="1">
           <mxGeometry x="2681.5400000000004" y="-1849" width="50" height="50" as="geometry" />
@@ -1717,7 +1717,7 @@
           <mxGeometry x="826" y="127" width="180" height="123" as="geometry" />
         </mxCell>
         <mxCell id="7VzrrO1-igG2bRUEYanR-53" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Did exectute this setup but was to expensive without stripped nodes ==&amp;gt; also spin up spin down delay&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2886" y="1887" width="607" height="30" as="geometry" />
+          <mxGeometry x="5485" y="2207" width="607" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
