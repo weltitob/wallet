@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4493" dy="3323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5444" dy="3742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7VzrrO1-igG2bRUEYanR-52" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2441" y="1815" width="1470" height="1470" as="geometry" />
+        </mxCell>
         <mxCell id="IiCHIhFrDBEjQnNPdRvh-15" value="" style="fillColor=none;strokeColor=none;pointerEvents=0;fontStyle=0;html=1;whiteSpace=wrap;container=1;collapsible=0;childLayout=stackLayout;resizeParent=1;dropTarget=0;fontSize=13;spacing=0;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;" parent="1" vertex="1">
           <mxGeometry x="1686" y="-770" width="795" height="550" as="geometry" />
         </mxCell>
@@ -1427,7 +1430,7 @@
           <mxGeometry x="367" y="91" width="130" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-17" value="LNURLS oder BOLT 12 können für permanente ... gpeostet werden" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-3" vertex="1">
-          <mxGeometry x="474" y="266" width="126" height="140" as="geometry" />
+          <mxGeometry x="369" y="324" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j5rwrClGnJFs_iM7-aKg-18" value="LNURLS oder BOLT 12 können für permanente ... gpeostet werden" style="rounded=1;whiteSpace=wrap;html=1;" parent="j5rwrClGnJFs_iM7-aKg-3" vertex="1">
           <mxGeometry x="610" y="402" width="126" height="140" as="geometry" />
@@ -1553,7 +1556,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-25" value="2of2 recovery&lt;div&gt;* Ich halt n key und mache regelmäßige nutzerbackups bei lightning (quasie vershclüsselte version von nutzerdaten mit privatekey verschlüsselt immer wenn gewisser amount treshhold oder zeit abgelaufen ist)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Nutzer hält nur einen privatekey auf dem device also n halben und wir sagen ihm er soll den ganzen aufschreiben und er hälr noch die channel stuff sachen auf seinem device aber auch immer alles verschlüsselt mit dem halben privatekey und gemeinsam mit meinem anteil können wirs dann imemr in den firebase functions entschlüsseln&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;oder er hält die channel daten plain hmmm das noch genau überlegen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aber die firebase fucntions sind basically alle lnd services abgekapselt und einzelend und wir providen die abckend sachen und die user wallet usw müssen das alles immer wiede rneu bauen - ja das wird craazzzy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Skalierbarkeit ist aber AMAZING ++&lt;/div&gt;&lt;div&gt;Nutzerexperience ist AMAZING ++&lt;/div&gt;&lt;div&gt;Die Idee ist AMZAING ++&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AUFWAND --&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Muun style setup ist auch ditschbar ==&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Wir könne auch n email und pw den nutzer hinterlegen lassen&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;dann speichern wir seinen privatekey verschlüsselt mit seinem pw bei uns in der cloud und das kann er dann per mail recovern wenn er umbedingt will&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Oder er macht halt die social recovery option die geht ja auch&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Das ist deutlich besser und wir zeigen dem nutzer seinen privatekey beim setup gar nicht mehr einfach&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stattdessen so ne security warnung oder so&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3666" y="5168" width="355" height="800" as="geometry" />
+          <mxGeometry x="3574" y="5520" width="355" height="800" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-579" y="5561" width="1114" height="791" as="geometry" />
@@ -1562,19 +1565,19 @@
           <mxGeometry x="-290" y="5469" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-28" value="&lt;b&gt;Was wenn offline?&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Was wenn online sogar da listend ja keine node auf updates habe ja nix runnen&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3099" y="5552" width="200" height="140" as="geometry" />
+          <mxGeometry x="3060" y="5530" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-35" value="Node generiert&lt;div&gt;Invoice&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3150" y="5719" width="126" height="140" as="geometry" />
+          <mxGeometry x="3058" y="5690" width="126" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-39" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3351" y="5812" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-40" value="&lt;b&gt;Dieser service kann abgespaltet werden um permanent 24/7 runnen?&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3340" y="5549" width="200" height="140" as="geometry" />
+          <mxGeometry x="3284" y="5533" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fQ0U4w6g0uYxdMnspSuI-41" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;displayMode&amp;quot;:null,&amp;quot;isNumberColumnEnabled&amp;quot;:false,&amp;quot;layout&amp;quot;:&amp;quot;center&amp;quot;,&amp;quot;localId&amp;quot;:&amp;quot;9773ee4e-1465-436e-9cf2-072edb8d65c7&amp;quot;,&amp;quot;width&amp;quot;:1338,&amp;quot;__autoSize&amp;quot;:false},&amp;quot;tableRow&amp;quot;,null,&amp;quot;tableCell&amp;quot;,{&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;colwidth&amp;quot;:null,&amp;quot;background&amp;quot;:null},&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;das erhalten von zahlungen triggert ja im normalfall eine notifcation bzw es gibt einen sevrice bei dem man listenen kann aber wnen ich als lsp mit meinen nutzern alleine erbunden bin kann ich dann nicht alle lightning zahlungen die ich bekomme / route und die zu meinen eigenen nutzern gehen sehen und damit weiss ich auch dass es n update gibt und muss keinen server 24/7 betreiben oder&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3048" y="5924" width="350" height="152" as="geometry" />
+          <mxGeometry x="3056" y="5855" width="350" height="152" as="geometry" />
         </mxCell>
         <mxCell id="-vxdCDrEvQ07Rtavf4AS-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/breez/breez-sdk-docs/raw/main/src/images/BreezSDK_Greenlight.png;" parent="1" vertex="1">
           <mxGeometry x="3666" y="3979" width="1200" height="600" as="geometry" />
@@ -1712,6 +1715,9 @@
         </mxCell>
         <mxCell id="7VzrrO1-igG2bRUEYanR-47" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Middleware Server Listening for changes on the BitNet Master Node and updating firebase&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7VzrrO1-igG2bRUEYanR-24">
           <mxGeometry x="826" y="127" width="180" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="7VzrrO1-igG2bRUEYanR-53" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Did exectute this setup but was to expensive without stripped nodes ==&amp;gt; also spin up spin down delay&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2886" y="1887" width="607" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
