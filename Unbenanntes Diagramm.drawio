@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="5748" dy="3876" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7183" dy="4509" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1912,6 +1912,12 @@
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-68" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" vertex="1" parent="1">
           <mxGeometry x="2838" y="6702" width="2644" height="2224" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-69" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3155" y="7073" width="222" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-70" value="Enduser params for&lt;div&gt;subserver&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="5034" y="7187" width="164" height="202" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
