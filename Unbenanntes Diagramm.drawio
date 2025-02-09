@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4836" dy="3497" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10113" dy="5873" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1720,16 +1720,16 @@
           <mxGeometry x="3845" y="2040" width="607" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Microservice architecture&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="246" y="7822" width="489" height="30" as="geometry" />
+          <mxGeometry x="-621" y="7844" width="489" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="8829" width="353" height="340" as="geometry" />
+          <mxGeometry x="-562" y="8851" width="353" height="340" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-3" value="Walletrpc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="451.5" y="8791" width="60" height="30" as="geometry" />
+          <mxGeometry x="-415.5" y="8813" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-4" value="config.active Relies on:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;WalletKitMacPath&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;NetworkDir&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;MacService&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;FeeEstimator&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Wallet&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;CoinSelectionLocker&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;KeyRing&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Sweeper&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Chain&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;ChainParams&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;CurrentNumAnchorChans&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;CoinSelectionStrategy&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); line-height: 19px;&quot;&gt;ChanStateDB&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="335" y="8878" width="221" height="253" as="geometry" />
+          <mxGeometry x="-532" y="8900" width="221" height="253" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-5" target="TL3rzKj5LnPpJ4DhsoK_-2">
           <mxGeometry relative="1" as="geometry" />
@@ -1737,133 +1737,133 @@
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-5" target="TL3rzKj5LnPpJ4DhsoK_-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1028.01" y="9284" />
-              <mxPoint x="444.01" y="9284" />
+              <mxPoint x="161.01" y="9306" />
+              <mxPoint x="-422.99" y="9306" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-5" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="898.01" y="8758" width="861" height="481" as="geometry" />
+          <mxGeometry x="31.00999999999999" y="8780" width="861" height="481" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-6" value="Config Dispatcher" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="889.01" y="8924" width="165" height="30" as="geometry" />
+          <mxGeometry x="22.00999999999999" y="8946" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-7" target="TL3rzKj5LnPpJ4DhsoK_-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-7" value="driver.go" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="514" y="8884" width="110" height="60" as="geometry" />
+          <mxGeometry x="-353" y="8906" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-8" value="subserverstartup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="514" y="8963" width="110" height="60" as="geometry" />
+          <mxGeometry x="-353" y="8985" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-12" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;PopulateDependencies&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;MUST be called before any callers are permitted to execute the&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// FetchConfig method.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;==&amp;gt; actually populates the config files of the subservers of grcp&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="913.01" y="8980" width="320" height="59" as="geometry" />
+          <mxGeometry x="46.00999999999999" y="9002" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-13" value="&lt;b&gt;subrpcserver_config.go&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1027.01" y="8707" width="165.27" height="30" as="geometry" />
+          <mxGeometry x="160.01" y="8729" width="165.27" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-14" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;// FetchConfig attempts to locate an existing configuration file mapped to the&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;// target sub-server. If we&#39;re unable to find a config file matching the&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;// subServerName name, then false will be returned for the second parameter.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="904.01" y="9056" width="361" height="72" as="geometry" />
+          <mxGeometry x="37.00999999999999" y="9078" width="361" height="72" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-16" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="1297.01" y="8808" width="435" height="420" as="geometry" />
+          <mxGeometry x="430.01" y="8830" width="435" height="420" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-17" value="Relies on:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1319.01" y="8768" width="60" height="30" as="geometry" />
+          <mxGeometry x="452.01" y="8790" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-18" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(154, 154, 154);&quot;&gt;cfg&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FF3333);fillColor=light-dark(#FFFFFF,#FF3333);" vertex="1" parent="1">
-          <mxGeometry x="1319.01" y="8825" width="49" height="36" as="geometry" />
+          <mxGeometry x="452.01" y="8847" width="49" height="36" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-19" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;cc&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FF3333);fillColor=light-dark(#FFFFFF,#FF3333);" vertex="1" parent="1">
-          <mxGeometry x="1378.01" y="8825" width="43" height="35" as="geometry" />
+          <mxGeometry x="511.01" y="8847" width="43" height="35" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-21" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;networkDir&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FF3333);fillColor=light-dark(#FFFFFF,#FF3333);" vertex="1" parent="1">
-          <mxGeometry x="1432.01" y="8825" width="89" height="38" as="geometry" />
+          <mxGeometry x="565.01" y="8847" width="89" height="38" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-22" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;atpl&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1672.23" y="8826" width="48" height="34" as="geometry" />
+          <mxGeometry x="805.23" y="8848" width="48" height="34" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-23" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;invoiceRegistry&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1314.04" y="8870" width="124" height="38" as="geometry" />
+          <mxGeometry x="447.03999999999996" y="8892" width="124" height="38" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-24" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;htlcSwitch&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1445.01" y="8870" width="93.99" height="40" as="geometry" />
+          <mxGeometry x="578.01" y="8892" width="93.99" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="8391" width="360" height="318" as="geometry" />
+          <mxGeometry x="-562" y="8413" width="360" height="318" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="9407" width="364" height="300" as="geometry" />
+          <mxGeometry x="-572" y="9429" width="364" height="300" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-30" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;activeNetParams&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1546.48" y="8869" width="120" height="39" as="geometry" />
+          <mxGeometry x="679.48" y="8891" width="120" height="39" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-31" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;chanRouter&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1314.04" y="8918" width="93.96" height="33" as="geometry" />
+          <mxGeometry x="447.03999999999996" y="8940" width="93.96" height="33" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-33" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;routerBackend&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1415" y="8918" width="117" height="34" as="geometry" />
+          <mxGeometry x="548" y="8940" width="117" height="34" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-34" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;nodeSigner&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1539" y="8918" width="100" height="33" as="geometry" />
+          <mxGeometry x="672" y="8940" width="100" height="33" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-35" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;graphDB&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1314.04" y="8965" width="68" height="37" as="geometry" />
+          <mxGeometry x="447.03999999999996" y="8987" width="68" height="37" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-36" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;chanStateDB&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1393" y="8965" width="103" height="39" as="geometry" />
+          <mxGeometry x="526" y="8987" width="103" height="39" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-37" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;sweeper&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1507" y="8965" width="78" height="41" as="geometry" />
+          <mxGeometry x="640" y="8987" width="78" height="41" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-39" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;tower&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1599" y="8965" width="61" height="42" as="geometry" />
+          <mxGeometry x="732" y="8987" width="61" height="42" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-40" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;towerClientMgr&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1313.01" y="9018" width="119" height="42" as="geometry" />
+          <mxGeometry x="446.01" y="9040" width="119" height="42" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-41" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;tcpResolver&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1443" y="9018" width="96" height="42" as="geometry" />
+          <mxGeometry x="576" y="9040" width="96" height="42" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-42" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;genInvoiceFeatures&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#7EA6E0);fillColor=light-dark(#FFFFFF,#7EA6E0);" vertex="1" parent="1">
-          <mxGeometry x="1546.01" y="9017" width="148" height="44" as="geometry" />
+          <mxGeometry x="679.01" y="9039" width="148" height="44" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-43" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;genAmpInvoiceFeatures&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#7EA6E0);fillColor=light-dark(#FFFFFF,#7EA6E0);" vertex="1" parent="1">
-          <mxGeometry x="1313.01" y="9072" width="168" height="35" as="geometry" />
+          <mxGeometry x="446.01" y="9094" width="168" height="35" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-44" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(154, 154, 154);&quot;&gt;getNodeAnnouncement&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#7EA6E0);fillColor=light-dark(#FFFFFF,#7EA6E0);" vertex="1" parent="1">
-          <mxGeometry x="1491" y="9072" width="162" height="34" as="geometry" />
+          <mxGeometry x="624" y="9094" width="162" height="34" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-45" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;updateNodeAnnouncement&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#7EA6E0);fillColor=light-dark(#FFFFFF,#7EA6E0);" vertex="1" parent="1">
-          <mxGeometry x="1314.04" y="9115" width="179" height="33" as="geometry" />
+          <mxGeometry x="447.03999999999996" y="9137" width="179" height="33" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-46" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;modifiers&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1608" y="9110.5" width="84" height="38" as="geometry" />
+          <mxGeometry x="741" y="9132.5" width="84" height="38" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-47" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;parseAddr&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#7EA6E0);fillColor=light-dark(#FFFFFF,#7EA6E0);" vertex="1" parent="1">
-          <mxGeometry x="1500" y="9111" width="92" height="37" as="geometry" />
+          <mxGeometry x="633" y="9133" width="92" height="37" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-48" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;rpcLogger&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1314" y="9161" width="88" height="33" as="geometry" />
+          <mxGeometry x="447" y="9183" width="88" height="33" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-49" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;auxDataParser&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1414" y="9161" width="119" height="41" as="geometry" />
+          <mxGeometry x="547" y="9183" width="119" height="41" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-50" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;invoiceHtlcModifier&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1544.54" y="9162.5" width="154" height="38" as="geometry" />
+          <mxGeometry x="677.54" y="9184.5" width="154" height="38" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-51" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;macService&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1535" y="8824.5" width="120" height="37" as="geometry" />
+          <mxGeometry x="668" y="8846.5" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-52" value="Critical information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=light-dark(transparent,#FF3333);" vertex="1" parent="1">
-          <mxGeometry x="1481.01" y="8768" width="78" height="30" as="geometry" />
+          <mxGeometry x="614.01" y="8790" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-53" value="Functions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=light-dark(transparent,#7EA6E0);" vertex="1" parent="1">
-          <mxGeometry x="1563" y="8768" width="95" height="30" as="geometry" />
+          <mxGeometry x="696" y="8790" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-54" value="cfg: A main configuration object (&lt;code&gt;*Config&lt;/code&gt;), which is typically populated by parsing external configuration sources (such as command-line flags or configuration files).&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cc:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ChainControl&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; instance (&lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cc&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) that is initialized as part of the chain backend&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1795.54" y="8775" width="428" height="190" as="geometry" />
+          <mxGeometry x="928.54" y="8797" width="428" height="190" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-58" target="TL3rzKj5LnPpJ4DhsoK_-5">
           <mxGeometry relative="1" as="geometry" />
@@ -1871,34 +1871,34 @@
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-55" target="TL3rzKj5LnPpJ4DhsoK_-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="947" y="8422" />
-              <mxPoint x="947" y="8471" />
+              <mxPoint x="80" y="8444" />
+              <mxPoint x="80" y="8493" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-55" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180.15" y="8339" width="296.74" height="166" as="geometry" />
+          <mxGeometry x="313.1500000000001" y="8361" width="296.74" height="166" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-55" target="TL3rzKj5LnPpJ4DhsoK_-58">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1329" y="8512" as="sourcePoint" />
-            <mxPoint x="1329" y="8758" as="targetPoint" />
+            <mxPoint x="462" y="8534" as="sourcePoint" />
+            <mxPoint x="462" y="8780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-58" value="addDeps ==&amp;gt; Calls the populate dependencies func" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1285.51" y="8590" width="86" height="61" as="geometry" />
+          <mxGeometry x="418.51" y="8612" width="86" height="61" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-60" value="Comment from rosabeef!!!&lt;div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// Before we create any of the sub-servers, we need to ensure that all&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// the dependencies they need are properly populated within each sub&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// server configuration struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// TODO(roasbeef): extend sub-sever config to have both (local vs remote) DB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="8466" width="634" height="121" as="geometry" />
+          <mxGeometry x="633" y="8488" width="634" height="121" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-61" value="rpcserver.go" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1204" y="8301" width="84" height="26" as="geometry" />
+          <mxGeometry x="337" y="8323" width="84" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-62" value="addDeps&lt;div&gt;(adds all the dependencies needed by the RPC servers)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;subServerCgs&lt;/span&gt;&lt;span style=&quot;color: #b4b4b4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;PopulateDependencies&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1195.89" y="8349" width="274" height="130" as="geometry" />
+          <mxGeometry x="328.8900000000001" y="8371" width="274" height="130" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-63" value="lnd.go" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1210.49" y="7963" width="51" height="26" as="geometry" />
+          <mxGeometry x="343.49" y="7985" width="51" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-64" target="TL3rzKj5LnPpJ4DhsoK_-55">
           <mxGeometry relative="1" as="geometry" />
@@ -1906,22 +1906,22 @@
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-64" target="TL3rzKj5LnPpJ4DhsoK_-106">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-212" y="8063" />
+              <mxPoint x="-1079" y="8085" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-64" target="TL3rzKj5LnPpJ4DhsoK_-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-566" y="8063" />
+              <mxPoint x="-1433" y="8085" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-64" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;MAIN&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;==&amp;gt; setup server based on config&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;==&amp;gt; collects all the daza&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;needed for addDeps&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1185.14" y="8009" width="286.75" height="166" as="geometry" />
+          <mxGeometry x="318.1400000000001" y="8031" width="286.75" height="166" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-66" value="passes server (s) and cf.subRPCServers (r)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1319.01" y="8184" width="281" height="30" as="geometry" />
+          <mxGeometry x="452.01" y="8206" width="281" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-68" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="2753" y="7946.5" width="3145" height="1955.5" as="geometry" />
@@ -1975,38 +1975,38 @@
           <mxGeometry x="3338" y="9039" width="680" height="751" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-88" value="r ==&amp;gt; rpc Server&lt;div&gt;s ==&amp;gt; any of the rpc subservers&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;when&amp;nbsp;&lt;span style=&quot;color: rgb(87, 166, 74); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;addDeps is done, the RPC server can&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #57a64a;&quot;&gt;// be started, and start accepting RPC calls.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="891.51" y="8437" width="363" height="147" as="geometry" />
+          <mxGeometry x="24.50999999999999" y="8459" width="363" height="147" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-89" value="RouterRPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="447" y="8354.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-420" y="8376.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-90" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1" y="8437" width="173" height="206" as="geometry" />
+          <mxGeometry x="-866" y="8459" width="173" height="206" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-91" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;graphDB Source Node&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2.7300000000000004" y="8382" width="162" height="30" as="geometry" />
+          <mxGeometry x="-864.27" y="8404" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-55" target="TL3rzKj5LnPpJ4DhsoK_-90">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="87" y="8339" />
+              <mxPoint x="-780" y="8361" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-93" value="SETUP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="889.01" y="8306" width="60" height="30" as="geometry" />
+          <mxGeometry x="22.00999999999999" y="8328" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.471;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-90" target="TL3rzKj5LnPpJ4DhsoK_-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-96" value="Adter the GraphDB setup get the channels and their capacity etc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="677" y="8421" width="242" height="30" as="geometry" />
+          <mxGeometry x="-190" y="8443" width="242" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-100" target="TL3rzKj5LnPpJ4DhsoK_-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1604" y="8206" />
-              <mxPoint x="1604" y="8092" />
+              <mxPoint x="737" y="8228" />
+              <mxPoint x="737" y="8114" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2014,68 +2014,68 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-100" value="Maybe this server needs to be maintained (lnd.go and the rpcserver.go) alwys for each user // these seem to hold f.e. the FeeEstimate f.e." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1737" y="8173" width="220" height="66" as="geometry" />
+          <mxGeometry x="870" y="8195" width="220" height="66" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-103" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;AdminAuthOptions&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="8036" width="143" height="30" as="geometry" />
+          <mxGeometry x="633" y="8058" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-64" target="TL3rzKj5LnPpJ4DhsoK_-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-105" value="DB init" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="887.47" y="8066" width="60" height="30" as="geometry" />
+          <mxGeometry x="20.470000000000027" y="8088" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-106" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-299" y="8437" width="173" height="206" as="geometry" />
+          <mxGeometry x="-1166" y="8459" width="173" height="206" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-107" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-652.5" y="8443" width="173" height="206" as="geometry" />
+          <mxGeometry x="-1519.5" y="8465" width="173" height="206" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-108" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-978" y="8447" width="173" height="206" as="geometry" />
+          <mxGeometry x="-1845" y="8469" width="173" height="206" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-64" target="TL3rzKj5LnPpJ4DhsoK_-108">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-892" y="8065" />
+              <mxPoint x="-1759" y="8087" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-113" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;Channel Database&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-293.5" y="8382" width="162" height="30" as="geometry" />
+          <mxGeometry x="-1160.5" y="8404" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-114" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;Watchtower Database&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-647" y="8382" width="162" height="30" as="geometry" />
+          <mxGeometry x="-1514" y="8404" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-115" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;WalletDB????&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-972.5" y="8382" width="162" height="30" as="geometry" />
+          <mxGeometry x="-1839.5" y="8404" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-116" value="&lt;div&gt;dbs, cleanUp, err := implCfg.DatabaseBuilder.BuildDatabase(ctx)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-802.5" y="8029" width="623" height="30" as="geometry" />
+          <mxGeometry x="-1669.5" y="8051" width="623" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-119" value="In summary, while the LND main initialization does set up all the necessary dependencies, it is meant to run as a continuously active daemon. If you want to run a subserver as a standalone microservice, you’ll need to ensure that you either keep the main process (or a subset of its services) running in the background or refactor the initialization so that the subserver can independently maintain and update its required state. Simply running the initialization once and then starting the subserver in isolation wouldn’t work properly because the ongoing processes (like chain synchronization and database updates) are essential for the subserver’s operation." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1692" y="8045" width="453" height="30" as="geometry" />
+          <mxGeometry x="825" y="8067" width="453" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-120" value="==&amp;gt; We will provide these services in our setup trough a centralized setup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2000.5" y="8194" width="249.47" height="30" as="geometry" />
+          <mxGeometry x="1133.5" y="8216" width="249.47" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-121" value="&lt;p&gt;The RPC server and its subservers are tightly integrated into a long-running system. Their functionality depends on:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Continuous blockchain synchronization.&lt;/li&gt;&lt;li&gt;Ongoing fee estimation and channel state updates.&lt;/li&gt;&lt;li&gt;Live wallet activity and state.&lt;/li&gt;&lt;li&gt;Real‑time updates to the routing graph and miscellaneous event logs.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1651.0000000000002" y="8306" width="355" height="125" as="geometry" />
+          <mxGeometry x="784.0000000000002" y="8328" width="355" height="125" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-123" value="Von oben nach unten durcharbeiten ob ich weis swoher es kommt und es replizierbar machen:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="8722" width="211" height="43" as="geometry" />
+          <mxGeometry x="-807" y="8744" width="211" height="43" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-124" value="config.active Relies on:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;WalletKitMacPath&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;NetworkDir&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;MacService&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;FeeEstimator&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Wallet&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;CoinSelectionLocker&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;KeyRing&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Sweeper&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Chain&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;ChainParams&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;CurrentNumAnchorChans&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;CoinSelectionStrategy&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); line-height: 19px;&quot;&gt;ChanStateDB&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="43" y="8801" width="221" height="548" as="geometry" />
+          <mxGeometry x="-824" y="8823" width="221" height="548" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-125" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;Path to the wallet kit macaroon&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-131.5" y="8830" width="60" height="30" as="geometry" />
+          <mxGeometry x="-998.5" y="8852" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-126" value="Walletkitserver" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="434" y="9366" width="60" height="30" as="geometry" />
+          <mxGeometry x="-433" y="9388" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-128" value="// We need the wallet kit server to do the heavy lifting on the PSBT // part. If we didn&#39;t rely on re-using the wallet kit server&#39;s logic we // would need to re-implement everything here. Since we deliver lnd with // the wallet kit server enabled by default we can assume it&#39;s okay to // make this functionality dependent on that server being active." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="324.5" y="9427" width="305" height="135" as="geometry" />
+          <mxGeometry x="-542.5" y="9449" width="305" height="135" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-130" value="Functions" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="65.47" y="10731" width="1605" height="1228" as="geometry" />
