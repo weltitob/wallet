@@ -1995,6 +1995,9 @@
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-100" value="Maybe this server needs to be maintained (lnd.go and the rpcserver.go) alwys for each user // these seem to hold f.e. the FeeEstimate f.e." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1737" y="8173" width="220" height="66" as="geometry" />
         </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-103" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;AdminAuthOptions&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="8036" width="143" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
