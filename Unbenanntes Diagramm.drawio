@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="6607" dy="4295" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5122" dy="3626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1809,7 +1809,7 @@
           <mxGeometry x="-562" y="8413" width="360" height="318" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-579" y="9454" width="364" height="300" as="geometry" />
+          <mxGeometry x="-562" y="9473" width="358" height="300" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-30" value="&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9a9a9a;&quot;&gt;activeNetParams&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="679.48" y="8891" width="120" height="39" as="geometry" />
@@ -2097,10 +2097,10 @@
           <mxGeometry x="-1378" y="8828" width="263" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-126" value="Walletkitrpc&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-462.5" y="9412" width="119" height="30" as="geometry" />
+          <mxGeometry x="-445.5" y="9431" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-128" value="// We need the wallet kit server to do the heavy lifting on the PSBT // part. If we didn&#39;t rely on re-using the wallet kit server&#39;s logic we // would need to re-implement everything here. Since we deliver lnd with // the wallet kit server enabled by default we can assume it&#39;s okay to // make this functionality dependent on that server being active." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-552" y="9488" width="305" height="135" as="geometry" />
+          <mxGeometry x="-535" y="9507" width="305" height="135" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-130" value="Functions" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2821" y="10091" width="1605" height="1228" as="geometry" />
