@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4074" dy="3138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3994" dy="3103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1910,7 +1910,7 @@
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-66" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1681" y="6892" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-68" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" vertex="1" parent="1">
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-68" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;" vertex="1" parent="1">
           <mxGeometry x="2838" y="6702" width="2644" height="2224" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-69" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1923,7 +1923,19 @@
           <mxGeometry x="4298" y="6760" width="648" height="1795" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-72" value="Walletrpc" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="TL3rzKj5LnPpJ4DhsoK_-71">
-          <mxGeometry x="38" y="70" width="548" height="468" as="geometry" />
+          <mxGeometry x="38" y="70" width="548" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-73" value="chainrpc" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="TL3rzKj5LnPpJ4DhsoK_-71">
+          <mxGeometry x="38" y="334" width="548" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-74" value="chainrpc" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="TL3rzKj5LnPpJ4DhsoK_-71">
+          <mxGeometry x="38" y="600" width="548" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-75" value="neutrinorpc???" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4336" y="7644" width="548" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-76" value="&lt;b&gt;NOT ALL RPCS THERE ARE ARE ACTUALLY NEEDED!&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4399" y="6637" width="346" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
