@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4714" dy="3442" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7028" dy="4484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1892,7 +1892,7 @@
           <mxGeometry x="1285.51" y="8590" width="86" height="61" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-60" value="Comment from rosabeef!!!&lt;div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// Before we create any of the sub-servers, we need to ensure that all&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// the dependencies they need are properly populated within each sub&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// server configuration struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// TODO(roasbeef): extend sub-sever config to have both (local vs remote) DB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1521.01" y="8443" width="634" height="121" as="geometry" />
+          <mxGeometry x="1500" y="8466" width="634" height="121" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-61" value="rpcserver.go" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1204" y="8301" width="84" height="26" as="geometry" />
@@ -2057,10 +2057,13 @@
           <mxGeometry x="-802.5" y="8029" width="623" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-119" value="In summary, while the LND main initialization does set up all the necessary dependencies, it is meant to run as a continuously active daemon. If you want to run a subserver as a standalone microservice, you’ll need to ensure that you either keep the main process (or a subset of its services) running in the background or refactor the initialization so that the subserver can independently maintain and update its required state. Simply running the initialization once and then starting the subserver in isolation wouldn’t work properly because the ongoing processes (like chain synchronization and database updates) are essential for the subserver’s operation." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2008" y="8181" width="453" height="30" as="geometry" />
+          <mxGeometry x="1692" y="8045" width="453" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-120" value="==&amp;gt; We will provide these services in our setup trough a centralized setup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2075.5" y="8281" width="318" height="30" as="geometry" />
+          <mxGeometry x="2000.5" y="8194" width="249.47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-121" value="&lt;p&gt;The RPC server and its subservers are tightly integrated into a long-running system. Their functionality depends on:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Continuous blockchain synchronization.&lt;/li&gt;&lt;li&gt;Ongoing fee estimation and channel state updates.&lt;/li&gt;&lt;li&gt;Live wallet activity and state.&lt;/li&gt;&lt;li&gt;Real‑time updates to the routing graph and miscellaneous event logs.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1651.0000000000002" y="8306" width="355" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
