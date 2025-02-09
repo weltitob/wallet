@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="4975" dy="3535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4162" dy="3177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1887,7 +1887,7 @@
           <mxGeometry x="1285.51" y="8590" width="86" height="61" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-60" value="Comment from rosabeef!!!&lt;div&gt;&lt;div style=&quot;color: rgb(218, 218, 218); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// Before we create any of the sub-servers, we need to ensure that all&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// the dependencies they need are properly populated within each sub&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// server configuration struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(87, 166, 74);&quot;&gt;// TODO(roasbeef): extend sub-sever config to have both (local vs remote) DB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1730.03" y="8338" width="634" height="121" as="geometry" />
+          <mxGeometry x="1521.01" y="8443" width="634" height="121" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-61" value="rpcserver.go" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1204" y="8301" width="84" height="26" as="geometry" />
@@ -1985,6 +1985,15 @@
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-96" value="Adter the GraphDB setup get the channels and their capacity etc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="677" y="8421" width="242" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-100" target="TL3rzKj5LnPpJ4DhsoK_-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TL3rzKj5LnPpJ4DhsoK_-100" target="TL3rzKj5LnPpJ4DhsoK_-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-100" value="Maybe this server needs to be maintained (lnd.go and the rpcserver.go) alwys for each user // these seem to hold f.e. the FeeEstimate f.e." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1737" y="8173" width="220" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
