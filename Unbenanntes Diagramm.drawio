@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="5748" dy="3876" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9096" dy="5352" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1904,7 +1904,7 @@
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-66" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1516" y="8117" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-68" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;" vertex="1" parent="1">
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-68" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="2753" y="7946.5" width="3757" height="1955.5" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-69" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1916,7 +1916,7 @@
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-77" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="5275" y="8333.5" width="427" height="477" as="geometry" />
         </mxCell>
-        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-71" value="AWS Fargate" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-71" value="AWS Fargate" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="4213" y="8004.5" width="630" height="1795" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-72" value="Walletrpc" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="TL3rzKj5LnPpJ4DhsoK_-71">
@@ -1927,6 +1927,9 @@
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-74" value="chainrpc" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="TL3rzKj5LnPpJ4DhsoK_-71">
           <mxGeometry x="38" y="600" width="548" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="TL3rzKj5LnPpJ4DhsoK_-87" value="neutrinorpc???" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="TL3rzKj5LnPpJ4DhsoK_-71">
+          <mxGeometry x="41" y="1168.5" width="548" height="248" as="geometry" />
         </mxCell>
         <mxCell id="TL3rzKj5LnPpJ4DhsoK_-75" value="neutrinorpc???" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4251" y="8888.5" width="548" height="248" as="geometry" />
