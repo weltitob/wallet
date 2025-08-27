@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="Seite-1" id="N_EaWLkp6oX0WocP8r3h">
-    <mxGraphModel dx="6826" dy="3536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9010" dy="4558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2301,7 +2301,7 @@
           <mxGeometry x="-2612.003282470703" y="1898.0034350585938" width="859" height="496" as="geometry" />
         </mxCell>
         <mxCell id="tfnvLFSWfgSwMYj5TatT-1" value="BitNet cloud" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3842" y="5160" width="1021" height="322" as="geometry" />
+          <mxGeometry x="-3842" y="5160" width="1021" height="502" as="geometry" />
         </mxCell>
         <mxCell id="tfnvLFSWfgSwMYj5TatT-6" value="" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;fontSize=13;align=center;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#000000;strokeWidth=2.3;lucidId=.XU2xWv1j90E;" vertex="1" parent="tfnvLFSWfgSwMYj5TatT-1">
           <mxGeometry x="273" y="65" width="719" height="231" as="geometry" />
@@ -2354,6 +2354,23 @@
               <mxPoint x="330" y="162" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tfnvLFSWfgSwMYj5TatT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tfnvLFSWfgSwMYj5TatT-1" source="tfnvLFSWfgSwMYj5TatT-49" target="tfnvLFSWfgSwMYj5TatT-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="629" y="305" />
+              <mxPoint x="630" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfnvLFSWfgSwMYj5TatT-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="tfnvLFSWfgSwMYj5TatT-1" source="tfnvLFSWfgSwMYj5TatT-49" target="tfnvLFSWfgSwMYj5TatT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfnvLFSWfgSwMYj5TatT-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tfnvLFSWfgSwMYj5TatT-1" source="tfnvLFSWfgSwMYj5TatT-49" target="tfnvLFSWfgSwMYj5TatT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfnvLFSWfgSwMYj5TatT-49" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tfnvLFSWfgSwMYj5TatT-1">
+          <mxGeometry x="588" y="381" width="75" height="93" as="geometry" />
         </mxCell>
         <mxCell id="tfnvLFSWfgSwMYj5TatT-5" value="DB (Firebase)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4223" y="5211" width="316" height="267" as="geometry" />
@@ -2428,6 +2445,15 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-3640" y="5375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfnvLFSWfgSwMYj5TatT-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="tfnvLFSWfgSwMYj5TatT-49" target="tfnvLFSWfgSwMYj5TatT-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3828" y="5618" />
+              <mxPoint x="-3828" y="5451" />
+              <mxPoint x="-4030" y="5451" />
             </Array>
           </mxGeometry>
         </mxCell>
